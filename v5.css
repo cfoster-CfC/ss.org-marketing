@@ -1,0 +1,5160 @@
+/*Space between video copy sections. Utilized on other pages beyond video as needed for spacing. Sample url: */
+
+.video-copy {
+    margin-bottom: 33px;
+}
+
+
+/*Used widely underneath fancybox video titles. Sample url:http://www.secondstep.org/Kindergarten/Teachers-Counselors/Second-Step-Kit/Overview/preparation-tips*/
+
+.rule-header {
+    width: 90%;
+    height: 1px;
+    overflow: hidden;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    background-image: none;
+    background-attachment: scroll;
+    background-color: #dddddd;
+    background-repeat: repeat;
+    border: solid 1p #000;
+}
+
+
+/*Used underneath video titles that are within a tan sidebar box. Constrains rule to proper width.
+Sample url: http://www.secondstep.org/Kindergarten/Teachers-Counselors/Second-Step-Kit/Overview/Goal-Lesson-Sequence*/
+
+.rule-header-tan-box {
+    width: 91%;
+    height: 1px;
+    overflow: hidden;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    background-image: none;
+    background-attachment: scroll;
+    background-color: #dddddd;
+    background-repeat: repeat;
+}
+
+
+/*Used in video galleries for each video within a trio module. Sample url: http://www.secondstep.org/Kindergarten/Families/Second-Step-Kit/Activities/Brain-Builders*/
+
+.video-gallery-title {
+    margin-right: 5px;
+    line-height: 20px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+
+/*Used in video galleries for each video within a trio module. Sample url: http://www.secondstep.org/Kindergarten/Families/Second-Step-Kit/Activities/Brain-Builders*/
+
+.video-gallery-time {
+    font-weight: normal;
+    font-size: 13px;
+    margin-bottom: 40px;
+}
+
+
+/*Sidebar videos small - don't know where we are using this*/
+
+.align_videos {
+    margin: 0 0 0 20px;
+}
+
+.header {
+    color: #333;
+    margin-top: 5px;
+    clear: both;
+    padding-top: 10px;
+}
+
+
+/*style added on 10-22 - perhaps get rid of this style?*/
+
+.headerLM {
+    color: #333;
+    font-size: 17px;
+    margin-top: 5px;
+    clear: both;
+    padding-top: 40px;
+}
+
+.main_container {
+    width: 100%;
+}
+
+.title-video-small {
+    margin: 0 15px;
+    font-size: 12px;
+    float: left;
+    width: 56px;
+    text-align: left;
+}
+
+
+/*Sidebar videos within tan sidebar box. Specifies size of small tan sidebar box and background color. Sample url:http://www.secondstep.org/Kindergarten/Teachers-Counselors/Second-Step-Kit/Overview/Goal-Lesson-Sequence. */
+
+.sidebar-video-tan-box {
+    width: 209px;
+    height: 211px;
+    padding: 5px 20px;
+}
+
+.sidebar-video-tanbox-maincontent {
+    background: #f4f1e9;
+    margin-left: 10px;
+    width: 100%;
+}
+
+
+/*End of Sidebar videos within tan sidebar box*/
+
+
+/*Static Sidebar Menu*/
+
+nav.home_links {
+    width: 100%;
+    font-size: 115%;
+    padding: 0;
+    margin: 0 0 0 0;
+}
+
+.inicio,
+.topic {
+    background: #fff;
+    padding: 5px 5px;
+    margin: 3px 10px;
+    color: #333;
+    cursor: pointer;
+    border-bottom: #c5c5c5 solid 1px;
+    font-size: 13px;
+}
+
+.inicio:hover,
+.topic:hover,
+.inicio:active,
+.topic:active {
+    background: #f2f2f2;
+}
+
+nav.home_links ul {
+    margin: 0px 0px 0px 0px;
+}
+
+nav.home_links li {
+    list-style: none;
+}
+
+.side_current {
+    color: #fff;
+    background: #777;
+}
+
+.side_current:hover,
+.side_current:active {
+    color: #fff;
+    background: #777;
+    cursor: default;
+}
+
+
+/*End of Static Sidebar Menu*/
+
+
+/*Dynamic Sidebar Menu Sample url:http://www.secondstep.org/Kindergarten/program-coordinators/Second-Step-Kit/overview*/
+
+.family_materials ul {
+    padding: 0;
+}
+
+nav.family_materials ul {
+    margin: 0px 0px 0px 0px;
+}
+
+nav.family_materials li ul {
+    width: 95%;
+    padding: 5px 10px;
+    margin: 0;
+}
+
+nav.family_materials li ul li {
+    padding: 0px 10px;
+    text-align: left;
+    color: #000;
+    border: none;
+    cursor: default;
+    font-size: 13px;
+}
+
+nav.family_materials li ul li:hover,
+li ul li:active {
+    background: #f2f2f2;
+    color: #333;
+    border: none;
+}
+
+a.readmore {
+    float: right;
+    color: #2F89B8;
+    padding: 10px;
+    display: block;
+    font-size: 13px;
+}
+
+a.readmore:hover {
+    color: #333;
+    text-decoration: underline;
+}
+
+a.navLinks {
+    color: #2F89B8;
+    padding: 10px;
+    display: block;
+    font-size: 13px;
+}
+
+a.navLinks:hover {
+    color: #333;
+    text-decoration: underline;
+}
+
+li p {
+    margin: 0px;
+}
+
+.arrows {
+    float: right;
+    font-size: 80%;
+    margin: 2px 15px 0 -60px;
+    color: #333;
+}
+
+nav.family_materials ul li {
+    list-style: none;
+}
+
+nav.family_materials a:hover,
+nav.family_materials a:active {
+    text-decoration: none;
+}
+
+ul.in_nav {
+    font-size: 12px !important;
+    line-height: 14px !important;
+    padding: 0px !important;
+    list-style: disk !important;
+}
+
+ul.in_nav li {
+    line-height: 14px !important;
+    padding: 5px 5px !important;
+}
+
+nav.family_materials li.getHelpCon ul li:hover,
+nav.family_materials li.getHelpCon ul li:active {
+    background: #fff !important;
+}
+
+li .GetHelpLinks a:hover,
+li .GetHelpLinks a:active {
+    display: block;
+    background: #f2f2f2;
+}
+
+
+/*End of Dynamic Sidebar Menu*/
+
+
+/*Tan sidebar*/
+
+.rgtCol {
+    width: 176px;
+    margin-left: 35px;
+    background: #f4f1e9;
+    padding: 12px;
+}
+
+.rgtCol .rightCollHeader {
+    margin-bottom: 0px;
+    text-align: left;
+    line-height: 1.2em;
+}
+
+.rgtCol ul,
+.rgtCol ul li {
+    list-style-type: none;
+}
+
+.rgtCol ul {
+    padding: 0;
+    margin: 15px 0;
+}
+
+.rgtCol ul li {
+    margin: 10px 0;
+    line-height: 18px;
+    font-size: 12px;
+    ;
+}
+
+.rgtCol ul li a {
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.sidebar-image {
+    width: 160px;
+    margin: 0 auto 10px;
+}
+
+
+/*End of Tan sidebar*/
+
+
+/*Book unit/week/title/author*/
+
+.book-unit-header {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.book-unit-header-rule {
+    margin-top: 5px;
+    padding-top: 0px;
+}
+
+
+/*End of Book unit/week/title/author*/
+
+
+/*Grade color sequence table (with h4 anchor)
+Sample url:http://www.secondstep.org/Early-Learning/Teachers-Counselors/Second-Step-Kit/Overview/topics-Sequence*/
+
+h4 {
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+h4 a {
+    color: #333;
+    text-decoration: none;
+}
+
+h4 a:hover {
+    color: #333;
+    text-decoration: none;
+}
+
+h4 a:visited {
+    color: #333;
+    text-decoration: none;
+}
+
+.tg {
+    border-collapse: collapse;
+    border-spacing: 0;
+    table-layout: fixed;
+}
+
+.tg td {
+    font-size: 14px;
+    padding: 10px 5px;
+    border: solid 1px #999;
+    overflow: hidden;
+    word-break: normal;
+    vertical-align: top;
+}
+
+.tg th {
+    font: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: solid 1px #999;
+    overflow: hidden;
+    word-break: normal;
+    valign: top;
+}
+
+.tg-031d {
+    font-size: 18px;
+}
+
+.tg-031d span {
+    color: #fff;
+}
+
+.tg-031e ul {
+    margin: 0 15px;
+}
+
+.tg-031e span {
+    font-size: 13px;
+    color: #000;
+}
+
+.tg-031e ul,
+.tg-031e p,
+.tg-031e ol {
+    font-size: 13px;
+}
+
+.grade-links a {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.scope-2col {
+    width: 235px;
+}
+
+
+/*End of Grade color sequence table (with h4 anchor)*/
+
+
+/*Gray Implement, Support and Monitor tables Sample url: http://www.secondstep.org/Kindergarten/Program-Coordinators/Second-Step-Kit/implementx/implementation-tasks*/
+
+.motivateTaskTable th,
+.motivateTaskTable td,
+.motivateTaskTable tr {
+    vertical-align: middle;
+}
+
+.motivateTaskTable {
+    border-collapse: collapse;
+    border-spacing: 0px;
+    width: 730px;
+    padding: 0 5px;
+}
+
+table.motivateTaskTable tr td {
+    display: table-cell;
+    vertical-align: middle !important;
+}
+
+h2 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+h2 a {
+    color: #333 !important;
+    text-decoration: none !important;
+}
+
+h2 a:hover {
+    color: #333 !important;
+    text-decoration: none !important;
+}
+
+h2 a:visited {
+    color: #333 !important;
+    text-decoration: none !important;
+}
+
+.table-left-two-thirds-col {
+    width: 465px;
+    background-color: #a8a8a8;
+    padding: 10px 12px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table-right-one-thirds-col {
+    width: 255px;
+    background-color: #a8a8a8;
+    padding: 10px 12px;
+    text-align: center;
+}
+
+.table-left-190-col {
+    width: 190px;
+    bgcolor: #a8a8a8;
+    padding: 10px 12px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table-middle-260-col {
+    width: 260px;
+    bgcolor: #a8a8a8;
+    padding: 10px 12px;
+    text-align: center;
+}
+
+.table-right-270-col {
+    width: 270px;
+    bgcolor: #a8a8a8;
+    padding: 10px 12px;
+    text-align: center;
+}
+
+.column-title {
+    font-weight: bold;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.vertical-column-divider {
+    vertical-align: top;
+    background-color: #e8e9ed;
+    padding: 10px 12px;
+    border-right: thin solid #a8a8a8;
+}
+
+.vertical-column-divider-nobkcolor {
+    vertical-align: top;
+    padding: 10px 12px;
+    border-right: thin solid #a8a8a8;
+}
+
+.cell-divider {
+    vertical-align: top;
+    padding: 10px 12px;
+    border-right: thin solid #a8a8a8;
+}
+
+.cell-background-grey {
+    vertical-align: top;
+    background-color: #e8e9ed;
+    padding: 10px 12px;
+}
+
+.cell-spacing-white {
+    valign: top;
+    padding: 10px 12px;
+}
+
+.cell-border {
+    background-color: #a8a8a8;
+    padding: 0in 12px;
+}
+
+.cell-right-padding {
+    align: top;
+    padding: 10px 12px;
+}
+
+.linkContainer img.large {
+    width: 160px;
+    height: 160px;
+    padding-bottom: 15px;
+}
+
+
+/*Toggle added on 10-15-15 - can probably delete these*/
+
+.listOne-270 {
+    float: left;
+    width: 270px;
+    padding-right: 85px;
+}
+
+.listOne-static,
+.listTwo-static {
+    float: left;
+    width: 285px;
+}
+
+.translation {
+    padding-bottom: 5px;
+    color: #666;
+}
+
+
+/*changes ol number sizes*/
+
+ol.list-size {
+    line-height: 18px;
+}
+
+ol.list-size-med {
+    line-height: 21px;
+}
+
+li.list-size {
+    font-size: 14px;
+}
+
+li span.revert-list-size {
+    font-size: 12px;
+}
+
+
+/*end ol number sizes*/
+
+a.anchor {
+    text-decoration: none;
+}
+
+
+/*added styles for el plan-track page
+http://www.secondstep.org/early-learning/teachers-counselors/second-step-kit/downloads/plan-track*/
+
+.ptbox_img {
+    width: 76%;
+}
+
+
+/*grade level colors for text, text links and backgrounds*/
+
+.el-green-text-color {
+    color: #60B766;
+}
+
+.el-blue-text-color {
+    color: #009cde;
+}
+
+.k-text-color {
+    color: #cd1443;
+}
+
+.g1-text-color {
+    color: #f47b2a;
+}
+
+.g2-text-color {
+    color: #eb9b00;
+}
+
+.g3-text-color {
+    color: #54b247;
+}
+
+.g4-text-color {
+    color: #75b1be;
+}
+
+.g5-text-color {
+    color: #98405c;
+}
+
+.g6-text-color {
+    color: #e9731e;
+}
+
+.g7-text-color {
+    color: #4A76A0;
+}
+
+.g8-text-color {
+    color: #eb9b00;
+}
+
+.grade-links li {
+    line-height: 35px;
+    list-style: none;
+}
+
+
+/*Grade Link Colors*/
+
+.el-grade-links-green p a {
+    color: #74B979;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.el-grade-links-blue p a {
+    color: #009cde;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.k-grade-links p a {
+    color: #ce1443;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.g1-grade-links p a {
+    color: #f47b2a;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.g2-grade-links p a {
+    color: #d49927;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.g3-grade-links p a {
+    color: #54b247;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.g4-grade-links p a {
+    color: #75b1be;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.g5-grade-links p a {
+    color: #98405c;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.g6-grade-links p a {
+    color: #e9731e;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.g7-grade-links p a {
+    color: #4A76A0;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.g8-grade-links p a {
+    color: #d49927;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.el-green-text-color a {
+    color: #74B979;
+}
+
+.el-blue-text-color a {
+    color: #009cde;
+}
+
+.k-text-color a {
+    color: #cd1443;
+}
+
+.g1-text-color a {
+    color: #f47b2a;
+}
+
+.g2-text-color a {
+    color: #eb9b00;
+}
+
+.g3-text-color a {
+    color: #54b247;
+}
+
+.g4-text-color a {
+    color: #75b1be;
+}
+
+.g5-text-color a {
+    color: #98405c;
+}
+
+.g6-text-color a {
+    color: #e9731e;
+}
+
+.g7-text-color a {
+    color: #4A76A0;
+}
+
+.g8-text-color a {
+    color: #eb9b00;
+}
+
+.el-green-background-color {
+    background-color: #74B979;
+}
+
+.el-blue-background-color {
+    background-color: #74B979;
+}
+
+.k-background-color {
+    background-color: #cd1443;
+}
+
+.g1-background-color {
+    background-color: #f47b2a;
+}
+
+.g2-background-color {
+    background-color: #f7B315;
+}
+
+.g3-background-color {
+    background-color: #54b247;
+}
+
+.g4-background-color {
+    background-color: #75b1be;
+}
+
+.g5-background-color {
+    background-color: #98405c;
+}
+
+.g6-background-color {
+    background-color: #e9731e;
+}
+
+.g7-background-color {
+    background-color: #699bc9;
+}
+
+.g8-background-color {
+    background-color: #eb9b00;
+}
+
+
+/*End of Grade Link Colors*/
+
+.grey-background-color {
+    background-color: #a8a8a8;
+}
+
+
+/*Landing Pages
+http://dnndev2.secondstep.org/early-learning/Families/Second-Step-Kit/Activities*/
+
+.landing-page-article {
+    width: 28%;
+    margin: 0 25px 0 0;
+    float: left;
+}
+
+.landing-page-row-not-first {
+    margin-top: 20px;
+}
+
+.landing-page-copy a {
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.landing-page-copy {
+    font-size: 14px;
+}
+
+
+/*made for introductory paragraph text that has no hyperlink within it*/
+
+.landing-page-reglink {
+    font-size: 14px;
+}
+
+.landing-page-article-wide {
+    width: 32%;
+    margin: 0 25px 0 0;
+    float: left;
+}
+
+.landing-page-article-30 {
+    width: 30%;
+    margin: 0 25px 0 0;
+    float: left;
+}
+
+.landing-page-article-46 {
+    width: 46%;
+    margin: 0 25px 0 0;
+    float: left;
+}
+
+
+/*http://dnndev2.secondstep.org/Kindergarten/Program-Coordinators/Second-Step-Kit/evaluation-guide/using-school-data*/
+
+ul li.el-green-bullet {
+    list-style-type: none;
+    background-image: url(/portals/0/K-5_IMG/graphic-elements/el-green-bullet.png);
+    background-repeat: no-repeat;
+    padding-left: 22px;
+    background-position: 0px 14px;
+    padding-top: 8px;
+}
+
+ul li.el-blue-bullet {
+    list-style-type: none;
+    background-image: url(/portals/0/K-5_IMG/graphic-elements/el-blue-bullet.png);
+    background-repeat: no-repeat;
+    padding-left: 22px;
+    background-position: 0px 14px;
+    padding-top: 8px;
+}
+
+ul li.kbullet {
+    list-style-type: none;
+    background-image: url(/portals/0/K-5_IMG/graphic-elements/k-bullet.png);
+    background-repeat: no-repeat;
+    padding-left: 22px;
+    background-position: 0px 14px;
+    padding-top: 8px;
+}
+
+ul li.g1bullet {
+    list-style-type: none;
+    background-image: url(/portals/0/K-5_IMG/graphic-elements/g1-bullet.png);
+    background-repeat: no-repeat;
+    padding-left: 22px;
+    background-position: 0px 14px;
+    padding-top: 8px;
+}
+
+ul li.g2bullet {
+    list-style-type: none;
+    background-image: url(/portals/0/K-5_IMG/graphic-elements/g2-bullet.png);
+    background-repeat: no-repeat;
+    padding-left: 22px;
+    background-position: 0px 14px;
+    padding-top: 8px;
+}
+
+ul li.g3bullet {
+    list-style-type: none;
+    background-image: url(/portals/0/K-5_IMG/graphic-elements/g3-bullet.png);
+    background-repeat: no-repeat;
+    padding-left: 22px;
+    background-position: 0px 14px;
+    padding-top: 8px;
+}
+
+ul li.g4bullet {
+    list-style-type: none;
+    background-image: url(/portals/0/K-5_IMG/graphic-elements/g4-bullet.png);
+    background-repeat: no-repeat;
+    padding-left: 22px;
+    background-position: 0px 14px;
+    padding-top: 8px;
+}
+
+ul li.g5bullet {
+    list-style-type: none;
+    background-image: url(/portals/0/K-5_IMG/graphic-elements/g5-bullet.png);
+    background-repeat: no-repeat;
+    padding-left: 22px;
+    background-position: 0px 14px;
+    padding-top: 8px;
+}
+
+ul li.g6bullet {
+    list-style-type: none;
+    background-image: url(/portals/0/K-5_IMG/graphic-elements/g6-bullet.png);
+    background-repeat: no-repeat;
+    padding-left: 22px;
+    background-position: 0px 14px;
+    padding-top: 8px;
+}
+
+ul li.g7bullet {
+    list-style-type: none;
+    background-image: url(/portals/0/K-5_IMG/graphic-elements/g7-bullet.png);
+    background-repeat: no-repeat;
+    padding-left: 22px;
+    background-position: 0px 14px;
+    padding-top: 8px;
+}
+
+ul li.g8bullet {
+    list-style-type: none;
+    background-image: url(/portals/0/K-5_IMG/graphic-elements/g8-bullet.png);
+    background-repeat: no-repeat;
+    padding-left: 22px;
+    background-position: 0px 14px;
+    padding-top: 8px;
+}
+
+
+/*End of Grade Level Bullets*/
+
+.tan-background-colored-bullets-list {
+    background-color: #f4f1e9;
+    padding: 20px 20px 20px 0;
+    font-size: 12px;
+}
+
+
+/*Unit Cards
+http://dnndev2.secondstep.org/Kindergarten/Teachers-Counselors/Second-Step-Kit/Teach-Reinforce/Reinforce-Skills/Unit-Cards*/
+
+.unit-cards-content-right {
+    float: left;
+    width: 220px;
+    margin-right: 20px;
+}
+
+.unit-cards-content-left {
+    float: left;
+    width: 466px;
+    margin-right: 20px;
+}
+
+.unit-card-column-left {
+    float: left;
+    width: 378px;
+    margin-right: 17px;
+}
+
+.unit-card-column-right {
+    float: left;
+    width: 350px;
+}
+
+.unit-card-image {
+    float: left;
+    width: 468px;
+}
+
+.unit-card-content {
+    float: left;
+    width: 250px;
+    margin-left: 12px;
+    margin-bottom: 20px;
+}
+
+
+/*used for spacing on unit card pages*/
+
+.space-above-uc {
+    margin-top: 44px;
+}
+
+.space-above-uc2 {
+    margin-top: 18px;
+}
+
+
+/*one-off styles added 10-8-2015*/
+
+.main-wrapper {
+    overflow: auto;
+}
+
+.content-width {
+    width: 500px;
+}
+
+p a.new_linkstyle {
+    font-size: 12px;
+    font-weight: bold;
+    color: #2f89b8;
+}
+
+.small_paragraph {
+    float: left;
+    width: 60%;
+}
+
+
+/*style added 10-20-2015*/
+
+h3 a.title-link-no-underline {
+    text-decoration: none;
+    color: black;
+}
+
+
+/*styles added 10-21:not sure where these reside*/
+
+.Larticle {
+    width: 30%;
+    margin: 15px 22px 0 0;
+    float: left;
+}
+
+h1 a.title-link-no-underline {
+    text-decoration: none;
+    color: black;
+}
+
+
+/*http://www.secondstep.org/Kindergarten/Families/Second-Step-Kit/Activities/Brain-Builders*/
+
+.brainbuilders-tan-sidebar-box {
+    padding: 10px;
+    background-color: #f4f1e9;
+}
+
+
+/*styles added on 10-28-15*/
+
+h6.k-titles a {
+    color: #ce1443;
+    line-height: 1.6em;
+    font-weight: bold;
+}
+
+h6.el-green-titles a {
+    color: #74B979;
+    line-height: 1.6em;
+    font-weight: bold;
+}
+
+h6.el-blue-titles a {
+    color: #009cde;
+    line-height: 1.6em;
+    font-weight: bold;
+}
+
+h6.g1-titles a {
+    color: #f47b2a;
+    line-height: 1.6em;
+    font-weight: bold;
+}
+
+h6.g2-titles a {
+    color: #d49927;
+    line-height: 1.6em;
+    font-weight: bold;
+}
+
+h6.g3-titles a {
+    color: #54b247;
+    line-height: 1.6em;
+    font-weight: bold;
+}
+
+h6.g4-titles a {
+    color: #75b1be;
+    line-height: 1.6em;
+    font-weight: bold;
+}
+
+h6.g5-titles a {
+    color: #98405c;
+    line-height: 1.6em;
+    font-weight: bold;
+}
+
+h6.g6-titles a {
+    color: #e9731e;
+    line-height: 1.6em;
+    font-weight: bold;
+}
+
+h6.g7-titles a {
+    color: #4A76A0;
+    line-height: 1.6em;
+    font-weight: bold;
+}
+
+h6.g8-titles a {
+    color: #d49927;
+    line-height: 1.6em;
+    font-weight: bold;
+}
+
+ul.k-grade-links *,
+ol.k-grade-links * {
+    color: #ce1443;
+}
+
+
+/*style added on 10-26-15*/
+
+.twocol-links-list {
+    width: 43%;
+    float: left
+}
+
+.el-green-text-color ul li a {
+    color: #74B979;
+}
+
+.el-blue-text-color ul li a {
+    color: #009cde;
+}
+
+.k-text-color ul li a {
+    color: #cd1443;
+}
+
+.g1-text-color ul li a {
+    color: #f47b2a;
+}
+
+.g2-text-color ul li a {
+    color: #eb9b00;
+}
+
+.g3-text-color ul li a {
+    color: #54b247;
+}
+
+.g4-text-color ul li a {
+    color: #75b1be;
+}
+
+.g5-text-color ul li a {
+    color: #98405c;
+}
+
+.g6-text-color ul li a {
+    color: #e9731e;
+}
+
+.g7-text-color ul li a {
+    color: #4A76A0;
+}
+
+.g8-text-color ul li a {
+    color: #eb9b00;
+}
+
+.el-green-text-color ol li a {
+    color: #74B979;
+}
+
+.el-blue-text-color ol li a {
+    color: #009cde;
+}
+
+.k-text-color ol li a {
+    color: #cd1443;
+}
+
+.g1-text-color ol li a {
+    color: #f47b2a;
+}
+
+.g2-text-color ol li a {
+    color: #eb9b00;
+}
+
+.g3-text-color ol li a {
+    color: #54b247;
+}
+
+.g4-text-color ol li a {
+    color: #75b1be;
+}
+
+.g5-text-color ol li a {
+    color: #98405c;
+}
+
+.g6-text-color ol li a {
+    color: #e9731e;
+}
+
+.g7-text-color ol li a {
+    color: #4A76A0;
+}
+
+.g8-text-color ol li a {
+    color: #eb9b00;
+}
+
+.video-gallery {
+    float: left;
+    margin-right: 20px;
+}
+
+
+/* Video Sizes. These constrain the preview image on the fb videos and are utilized throughout the site.  */
+
+
+/*Sample url:*/
+
+.sidebar-video-large img {
+    max-width: 227px;
+    max-height: 150px;
+}
+
+
+/*Sample url:*/
+
+.main-video-large img {
+    max-width: 500px;
+    max-height: 332px;
+}
+
+
+/*Sample url:*/
+
+.tan-sidebar-video img {
+    max-width: 190px;
+}
+
+
+/*Sample url:*/
+
+.sidebar-video-small img {
+    max-width: 122px;
+}
+
+
+/*Sample url:*/
+
+.sidebar .videobox {
+    margin-bottom: 22px;
+    float: left;
+}
+
+
+/* Image Box Style  */
+
+.videowrapper {
+    margin: 0px 4px 0px 0px;
+}
+
+.videowrapper .header {
+    padding-top: 35px;
+}
+
+
+/*These are video styles used throughout the site on all fb videos*/
+
+.videowrapper .videobox {
+    border: 0px solid #fff;
+    cursor: pointer;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    -webkit-box-shadow: 1px 1px 1px 1px #ccc;
+    -moz-box-shadow: 1px 1px 1px 1px #ccc;
+    box-shadow: 1px 1px 1px 1px #ccc;
+}
+
+
+/*Not sure where this style is used*/
+
+.video title p {
+    font-size: 16px;
+    line-height: 1.1em;
+}
+
+
+/*Used throughout site for floating right and left*/
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+
+/*These are used on the implement page pie chart and copy. Sample url: http://www.secondstep.org/Kindergarten/Program-Coordinators/Second-Step-Kit/implementx/implementation-tasks#motivate*/
+
+.implement-left-46 {
+    float: left;
+    width: 46%;
+}
+
+.implement-right-48 {
+    float: left;
+    width: 48%;
+}
+
+.implement-right-70 {
+    float: right;
+    width: 70%;
+    margin-top: 45px;
+}
+
+
+/*Style for videos that are within content like this page
+http://www.secondstep.org/Kindergarten/Families/Second-Step-Kit/Benefits*/
+
+.videobox-within-content {
+    margin-right: 20px;
+    border: 0px solid #fff;
+    cursor: pointer;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    -webkit-box-shadow: 1px 1px 1px 1px #ccc;
+    -moz-box-shadow: 1px 1px 1px 1px #ccc;
+    box-shadow: 1px 1px 1px 1px #ccc;
+}
+
+.videowrapper .videobox:hover,
+.videobox-within-content:hover,
+.videobox-within-gallery:hover {
+    -webkit-box-shadow: 0px 0px 5px #333;
+    -moz-box-shadow: 0px 0px 5px #333;
+    box-shadow: 0px 0px 5px #333;
+}
+
+
+/*Style for videos that are within galleries like this page
+http://www.secondstep.org/Kindergarten/Families/Second-Step-Kit/Activities/Brain-Builders*/
+
+.videobox-within-gallery {
+    margin-bottom: 10px;
+    border: 0px solid #fff;
+    cursor: pointer;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    -webkit-box-shadow: 1px 1px 1px 1px #ccc;
+    -moz-box-shadow: 1px 1px 1px 1px #ccc;
+    box-shadow: 1px 1px 1px 1px #ccc;
+}
+
+
+/*Toggle code. Used throughout site. Sample url: http://www.secondstep.org/Kindergarten/Families/Second-Step-Kit/Activities/song-lyrics-sheet-music*/
+
+.switch-container {
+    margin: 0 auto;
+    padding: 2px 0;
+}
+
+.switch-container .switch {
+    position: relative;
+    margin: 15px auto;
+    height: 30px;
+    width: 124px;
+    background: #ccc;
+    border-radius: 2px;
+    color: rgba(0, 0, 0, 0.45);
+}
+
+.switch-container .switch.wider-switch {
+    width: 164px;
+}
+
+.switch-container .switch .switch-label {
+    position: relative;
+    z-index: 2;
+    float: left;
+    width: 60px;
+    line-height: 30px;
+    font-size: 14px;
+    letter-spacing: -0.025em;
+    color: rgba(0, 0, 0, 0.45);
+    text-align: center;
+    cursor: pointer;
+}
+
+.switch-container .switch .switch-label.wider-label {
+    width: 80px;
+}
+
+.switch-container .switch .switch-label-off {
+    padding-left: 2px;
+}
+
+.switch-container .switch .switch-label-on {
+    padding-right: 2px;
+}
+
+.switch-container .switch .switch-input {
+    display: none;
+}
+
+.switch-container .switch .switch-input:checked + .switch-label {
+    color: #fff;
+    cursor: context-menu;
+    -webkit-transition: 0.15s ease-out;
+    -moz-transition: 0.15s ease-out;
+    -o-transition: 0.15s ease-out;
+    transition: 0.15s ease-out;
+}
+
+.switch-container .switch .switch-input:checked + .switch-label-on ~ .switch-selection {
+    left: 60px;
+}
+
+.switch-container .switch .switch-input:checked + .switch-label-on ~ .switch-selection.wider-left {
+    left: 80px;
+}
+
+.switch-container .switch .switch-selection {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    top: 2px;
+    left: 2px;
+    width: 62px;
+    height: 26px;
+    background: #777;
+    border-radius: 3px;
+    -webkit-transition: left 0.15s ease-out;
+    -moz-transition: left 0.15s ease-out;
+    -o-transition: left 0.15s ease-out;
+    transition: left 0.15s ease-out;
+}
+
+.switch-container .switch .switch-selection.wider-selection {
+    width: 82px;
+}
+
+#toggle-container {
+    padding: 20px 0;
+    height: 100%;
+}
+
+#toggle-container.extra-wide {
+    width: 600px;
+}
+
+#toggle-container .toggle-tab {
+    white-space: normal;
+}
+
+#toggle-container .toggle-tab .line-spacer {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 25px;
+    width: 100%;
+}
+
+#toggle-container .toggle-tab .toggle-col {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#toggle-container .toggle-tab .toggle-col.one-col {
+    width: 100%;
+}
+
+#toggle-container .toggle-tab .toggle-col.two-col {
+    width: 230px;
+}
+
+#toggle-container .toggle-tab .toggle-col.two-col-nar {
+    width: 220px;
+}
+
+
+/*added these styles to allow for lenthier titles on handouts pages and beyond*/
+
+#toggle-container .toggle-tab .toggle-col.two-col-semi-wide {
+    width: 248px;
+}
+
+#toggle-container .toggle-tab .toggle-col .item-three p.medtitles {
+    width: 170px;
+}
+
+#toggle-container .toggle-tab .toggle-col .item-three p.longtitles {
+    width: 275px;
+}
+
+#toggle-container .toggle-tab .toggle-col.two-col.extrawide {
+    width: 350px;
+}
+
+
+/*end of handout styles added to accomodate lengthy titles*/
+
+#toggle-container .toggle-tab .toggle-col.two-col-wide {
+    width: 320px;
+}
+
+#toggle-container .toggle-tab .toggle-col.three-col {
+    width: 350px;
+}
+
+#toggle-container .toggle-tab .toggle-col.extra-margin {
+    margin-right: 50px;
+}
+
+#toggle-container .toggle-tab .toggle-col .item-one {
+    height: 255px;
+}
+
+#toggle-container .toggle-tab .toggle-col .item-one img {
+    margin: 0;
+}
+
+#toggle-container .toggle-tab .toggle-col .item-one h6 {
+    margin: 0;
+}
+
+#toggle-container .toggle-tab .toggle-col .item-one a {
+    margin: 0;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+#toggle-container .toggle-tab .toggle-col .item-one a.large-link {
+    font-size: 16px;
+}
+
+#toggle-container .toggle-tab .toggle-col .item-one p.translation {
+    padding: 0;
+    margin: -4px 0 3px 0;
+}
+
+#toggle-container .toggle-tab .toggle-col .item-one.height-auto {
+    height: auto;
+}
+
+#toggle-container .toggle-tab .toggle-col .item-one.small-height {
+    height: 218px;
+}
+
+#toggle-container .toggle-tab .toggle-col .item-two,
+#toggle-container .toggle-tab .toggle-col .item-three,
+#toggle-container .toggle-tab .toggle-col .item-four {
+    padding-bottom: 15px;
+}
+
+#toggle-container .toggle-tab .toggle-col .item-two img,
+#toggle-container .toggle-tab .toggle-col .item-three img,
+#toggle-container .toggle-tab .toggle-col .item-four img {
+    display: inline-block;
+    margin: 0;
+}
+
+#toggle-container .toggle-tab .toggle-col .item-two a,
+#toggle-container .toggle-tab .toggle-col .item-three a,
+#toggle-container .toggle-tab .toggle-col .item-four a,
+#toggle-container .toggle-tab .toggle-col .item-two p,
+#toggle-container .toggle-tab .toggle-col .item-three p,
+#toggle-container .toggle-tab .toggle-col .item-four p {
+    margin: 0;
+    font-size: 14px;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#toggle-container .toggle-tab .toggle-col .item-two h6 {
+    margin: 0;
+}
+
+#toggle-container .toggle-tab .toggle-col .item-two p {
+    width: 100px;
+}
+
+#toggle-container .toggle-tab .toggle-col .item-three {
+    height: 55px;
+}
+
+#toggle-container .toggle-tab .toggle-col .item-three img {
+    width: 50px;
+}
+
+#toggle-container .toggle-tab .toggle-col .item-three p {
+    width: 145px;
+}
+
+#toggle-container .toggle-tab .toggle-col .item-three p.extra-width {
+    width: 170px;
+}
+
+#toggle-container .toggle-tab .toggle-col .item-three.width-auto p {
+    width: auto;
+}
+
+#toggle-container .toggle-tab .toggle-col .item-four {
+    height: 80px;
+}
+
+#toggle-container .toggle-tab .toggle-col .item-four .right-text {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#toggle-container .toggle-tab .toggle-col .item-four img.img-sm {
+    width: 50px;
+}
+
+#toggle-container .toggle-tab .toggle-col .item-one a {
+    font-size: 14px;
+}
+
+#toggle-container a:hover {
+    text-decoration: underline;
+}
+
+
+/*shrinks the image for the toggle*/
+
+#toggle-container .toggle-tab .toggle-col .item-four img.img-sm {
+    width: 50px;
+}
+
+
+/*For medium size images within the toggle*/
+
+
+/*#toggle-container .toggle-tab .toggle-col .item-five img {
+    width: 100px;}
+ 
+    #toggle-container .toggle-tab .toggle-col .item-five {
+    height: 180px;}*/
+
+
+/*smaller toggle width*/
+
+#toggle-container .toggle-tab .toggle-col.two-col-nar {
+    width: 220px;
+}
+
+#toggle-container .toggle-tab .toggle-col .item-three p.extra-width {
+    width: 170px;
+}
+
+.thumb {
+    width: 190px;
+    margin-bottom: 10px;
+}
+
+.thumb-smaller {
+    width: 160px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+
+/*Sample url: http://secondstep.org/Kindergarten/Teachers-Counselors/Second-Step-Kit/Downloads/teaching-tools/classroom-management-tools*/
+
+.cmt-sidebar-one p {
+    margin: 0;
+    padding: 24px;
+    width: 182px;
+    height: 148px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 28px;
+    background-image: none;
+    background-attachment: scroll;
+    background-color: #4e8697;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+}
+
+.cmt-sidebar-one .bt {
+    margin: 0;
+    padding: 37px 24px 20px;
+    width: 182px;
+    height: 59px;
+    background-image: none;
+    background-attachment: scroll;
+    background-color: #4e8697;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+}
+
+.cmt-sidebar-one .bt img {
+    width: 180px;
+}
+
+.cmt-sidebar-two .header {
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+.cmt-sidebar-two p {
+    font-size: 12px;
+}
+
+.cmt-sidebar-two ul,
+.cmt-sidebar-two a {
+    color: #4e8697;
+    font-size: 15px;
+}
+
+.cmt-sidebar-two ul {
+    color: #4e8697;
+    padding-top: 0;
+}
+
+.cmt-sidebar-two li {
+    color: #4e8697;
+    line-height: 32px;
+}
+
+.cmt-left-image-section p {
+    font-size: 18px;
+    color: #ce1443;
+}
+
+.cmt-right-image-section img {
+    height: 35px;
+}
+
+.cmt-right-image-section .header {
+    font-size: 15px;
+    line-height: 2px;
+}
+
+.cmt-p-one {
+    margin: 0px;
+    padding: 24px;
+    width: 182px;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 28px;
+    background-color: #4e8697;
+}
+
+.cmt-p-two {
+    margin: 0px;
+    padding: 23px 24px 20px;
+    width: 182px;
+    background-color: #4e8697;
+}
+
+
+/*Added 11-17 adjusts tan sidebar*/
+
+.tanbar-height-one {
+    height: 309px;
+}
+
+.tanbar-height-two {
+    height: 257px;
+}
+
+.video-tanbar-one {
+    height: 259px;
+}
+
+.tanbar-img-one {
+    height: 135px;
+}
+
+
+/*one off accordian positioning used here: http://www.secondstep.org/Kindergarten/Teachers-Counselors/Second-Step-Kit/Downloads/teaching-tools/classroom-management-tools*/
+
+.ac-margin-top {
+    margin-top: 37px;
+}
+
+
+/*added 11-17 to adjust line height of list items here: http://www.secondstep.org/Kindergarten/Teachers-Counselors/Second-Step-Kit/Teach-Reinforce*/
+
+.extra-leading li {
+    line-height: 25px;
+}
+
+
+/*Used throughout site for spacing*/
+
+.space-above-large {
+    margin-top: 40px;
+}
+
+.space-above-medium {
+    margin-top: 25px;
+}
+
+.space-above-xsmall {
+    margin-top: 8px;
+}
+
+.space-above-small {
+    margin-top: 15px;
+}
+
+.space-below-medium {
+    margin-bottom: 25px;
+}
+
+.space-below-xsmall {
+    margin-bottom: 8px;
+}
+
+.space-below-small {
+    margin-bottom: 15px;
+}
+
+.left-margin-none {
+    margin-left: 0;
+}
+
+
+/*general spacing from cfc*/
+
+.space-above-50px {
+    margin-top: 50px;
+}
+
+.space-above-30px {
+    margin-top: 30px;
+}
+
+.space-above-15px {
+    margin-top: 15px;
+}
+
+.space-below-50px {
+    margin-bottom: 50px;
+}
+
+.space-below-30px {
+    margin-bottom: 30px;
+}
+
+.space-below-20px {
+    margin-bottom: 20px;
+}
+
+.space-below-15px {
+    margin-bottom: 15px;
+}
+
+.padding-right-40px {
+    padding-right: 40px;
+}
+
+.padding-right-20px {
+    padding-right: 20px;
+}
+
+.space-right-40px {
+    margin-right: 40px;
+}
+
+.space-right-20px {
+    margin-right: 20px;
+}
+
+.space-left-40px {
+    margin-left: 40px;
+}
+
+.space-left-20px {
+    margin-left: 20px;
+}
+
+.padding-left-40px {
+    padding-left: 40px;
+}
+
+.padding-left-20px {
+    padding-left: 20px;
+}
+
+.width-100 {
+    width: 100%;
+}
+
+.width-85 {
+    width: 84%;
+}
+
+.width-33 {
+    width: 33%;
+}
+
+.text-center-align {
+    text-align: center;
+}
+
+
+/*Used for PDF text inside span tags throughout site*/
+
+.blackTxt {
+    font-size: 12px;
+}
+
+
+/*Used for PDF text inside span tags throughout site with Muli font*/
+
+.blackTxt2 {
+    font-size: 12px;
+    font-family: 'Muli', "Myriad Web Pro", arial, serif;
+    font-weight: normal;
+}
+
+
+/*not sure where styles below reside*/
+
+.line-spacer {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 25px;
+    width: 100%;
+}
+
+h3 a {
+    color: #333 !important;
+    text-decoration: none !important;
+}
+
+
+/*Jay styles added */
+
+.rgtCol.align-width {
+    width: 205px;
+    margin-left: 10px;
+}
+
+
+/*Used here: http://www.secondstep.org/Grade-6/Program-Coordinators/Second-Step-Kit/Implement-X/Implementation-Process*/
+
+.implement-model .img-section {
+    display: inline-block;
+    vertical-align: top;
+    width: 305px;
+}
+
+.implement-model .img-section h4 {
+    width: 100px;
+}
+
+.implement-model .img-section img {
+    margin-top: -70px;
+}
+
+.implement-model .tx-section {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+}
+
+.implement-model .tx-section h6 {
+    position: absolute;
+    color: #333;
+}
+
+.implement-model .tx-section h6.tx-one {
+    top: 10px;
+    left: 10px;
+}
+
+.implement-model .tx-section h6.tx-two {
+    top: 110px;
+    left: 0;
+}
+
+.implement-model .tx-section h6.tx-three {
+    top: 185px;
+    left: -70px;
+}
+
+.implement-model .tx-section h6.tx-four {
+    top: 255px;
+    left: -170px;
+}
+
+
+/*Used for G6 video galleries. Sample url: http://www.secondstep.org/Grade-6/Teachers-Counselors/Second-Step-Kit/Teach-Reinforce/Preparation-Tips/lesson-prep-videos*/
+
+.one-third-width {
+    width: 232px;
+}
+
+.space-right {
+    margin-right: 16px;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.video-gallery-within-section {
+    font-family: "muli";
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.video-time-within-section {
+    font-family: "muli";
+    font-size: 12px;
+}
+
+
+/*added for this page http://www.secondstep.org/Early-Learning/Families/Second-Step-Kit/Activities/Brain-Builders-More/Books-for-Adults */
+
+span.book-titles {
+    font-size: 16px;
+}
+
+
+/*added for extra line-height*/
+
+.extra-line-space {
+    line-height: 1.2em;
+}
+
+.sub-nav-hd {
+    font-size: 36px;
+}
+
+.copy {
+    width: 62%;
+    margin-left: 15px;
+}
+
+.lead_in {
+    font-size: 15px;
+    font-family: 'arial', serif;
+    line-height: 1.4em;
+    color: #666;
+}
+
+
+/*styles for BPU and CPU marketing pages*/
+
+.product-page {
+    color: #666666;
+    height: 100%;
+}
+
+.product-page.bg-color {
+    background-color: #f1ece4;
+}
+
+.product-page img {
+    max-width: 100%;
+}
+
+.product-page .intro-text {
+    font-size: 17px;
+    line-height: 24px;
+}
+
+.intro-text-header {
+    font-size: 19px;
+    line-height: 24px;
+}
+
+.product-page .tx-align-center {
+    text-align: center;
+}
+
+.product-page .section-one {
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+    margin: 25px 0 0 25px;
+}
+
+.product-page .section-one .img-holder,
+.product-page .section-one .tx-holder {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 20%;
+    float: left;
+}
+
+.product-page .section-one .img-holder img,
+.product-page .section-one .tx-holder img {
+    margin: 0;
+}
+
+.product-page .section-one .tx-holder {
+    width: 80%;
+}
+
+.product-page .section-one .tx-holder .section-one-hd {
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.product-page .section-two {
+    display: inline-block;
+    vertical-align: top;
+    width: 195px;
+    margin: 10px 0 20px 40px;
+    background-color: #fff;
+}
+
+.product-page .section-two .top-section {
+    background-color: #58585a;
+}
+
+.product-page .section-two .top-section p {
+    padding: 4px 0 4px 14px;
+    color: #fff;
+    font-size: 24px;
+    margin: 0;
+    line-height: 25px;
+    font-weight: bold;
+}
+
+.product-page .section-two .bottom-section p {
+    color: #f47b2a;
+    margin: 5px 0 0 14px;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 0;
+    display: block;
+    height: 33px;
+    padding-bottom: 15px;
+    line-height: 18px;
+}
+
+.product-page .section-two .bottom-section .time-tx {
+    font-size: 11px;
+    font-style: italic;
+    color: #333;
+    margin-top: 18px;
+    padding-bottom: 10px;
+    font-weight: normal;
+}
+
+.product-page .section-two .bottom-section .org-tx {
+    color: #f47b2a;
+}
+
+.product-page .section-two .bottom-section .org-tx span {
+    color: #333;
+    font-weight: normal;
+    font-style: normal;
+    padding-left: 0;
+    font-size: 14px;
+}
+
+.product-page .section-two .bottom-section ul {
+    margin: 0 0 16px 16px;
+    padding: 0;
+    font-size: 14px;
+    width: 165px;
+    height: 155px;
+}
+
+.product-page .section-two .bottom-section ul li {
+    margin-bottom: 12px;
+    margin-left: 14px;
+}
+
+.product-page .section-three {
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px 0 20px 70px;
+}
+
+.product-page .section-three p,
+.product-page .section-three a {
+    font-size: 15px;
+    text-align: center;
+}
+
+.product-page .bottom-container-one {
+    width: 580px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.product-page .bottom-container-one p {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+    margin: 0 20px 0 0;
+}
+
+.product-page .bottom-container-one p span {
+    font-size: 11px;
+}
+
+.product-page .bottom-container-one .top-margin {
+    margin-top: 8px;
+}
+
+.product-page .bottom-container-one a {
+    display: inline-block;
+    vertical-align: top;
+    background: #007096;
+    cursor: pointer;
+    color: #fff;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    width: 123px;
+    padding: 4px 2px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 4px;
+    font-size: 13px;
+}
+
+.product-page .bottom-container-one a img {
+    padding-left: 5px;
+    vertical-align: -2px;
+}
+
+.product-page .section-four {
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px 0 20px 40px;
+    width: 190px;
+}
+
+.product-page .section-four p,
+.product-page .section-four a {
+    font-size: 15px;
+    text-align: left;
+}
+
+.product-page .section-five {
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px 0 20px 40px;
+    width: 310px;
+}
+
+.product-page .section-five p {
+    font-size: 14px;
+}
+
+.product-page .section-five .red-tx {
+    color: #bc1e2d;
+}
+
+.product-page .th-one {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    padding: 10px 30px;
+    font-size: 18px;
+    border-bottom: solid 1px #ffffff;
+    background-color: #f47b28;
+}
+
+.product-page .table-one .td-one {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    padding: 10px 30px;
+    font-size: 16px;
+    background-color: #f47b28;
+}
+
+.product-page .table-one .tr-one {
+    background-color: #58585a;
+}
+
+.product-page .table-one .tr-one p {
+    color: #ffffff;
+    padding: 5px 0px 0px 30px;
+    margin: 0px;
+    line-height: 18px;
+    border-right: solid 1px #fff;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.product-page .table-one .tr-one .no-border-right {
+    border-right: none;
+}
+
+.product-page .table-one .td-two {
+    padding: 0px 0px 0px 10px;
+    border: solid 1px #595959;
+}
+
+.product-page .table-one .td-three {
+    padding: 0px 0px 0px 10px;
+    border: solid 1px #595959;
+    border-left: none;
+}
+
+.product-page .top-padding {
+    padding-top: 30px;
+}
+
+.product-page .left-margin {
+    margin-left: 40px;
+}
+
+.product-page .quote-text {
+    line-height: 24px;
+    margin-top: 20px;
+    font-size: 16px;
+    padding: 0 30px 10px 0;
+}
+
+.quote-text-author {
+    line-height: 24px;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0 30px 10px 0;
+}
+
+.product-page .align-text-right {
+    text-align: right;
+}
+
+.product-page .video-align {
+    margin: 0 auto;
+    width: 500px;
+}
+
+.product-page .mobile-hero {
+    display: none;
+}
+
+.product-page .toolsCon {
+    padding: 16px 0 20px 16px;
+    background: #efeae2;
+    float: left;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.product-page .containerHead {
+    color: #58595b;
+    font-size: 20px;
+    padding-bottom: 12px;
+    font-weight: bold;
+}
+
+.product-page .iconContainers p {
+    margin-top: 15px;
+}
+
+.product-page .iconContainers {
+    color: #58595b;
+    font-size: 13px;
+    width: 198px;
+    margin-right: 40px;
+    float: left;
+}
+
+.product-page .iconContainers a {
+    color: #00698f;
+    text-decoration: none;
+}
+
+.product-page .iconContainers a:hover {
+    text-decoration: underline;
+}
+
+.product-page .mesl {
+    position: absolute;
+    top: -40px;
+    right: 0;
+    z-index: 1000;
+    margin-right: 12px;
+}
+
+.product-page .purchaceCon {
+    background: #efeae2;
+    padding: 20px 0 20px 0;
+    overflow: hidden;
+}
+
+.product-page .purchaceHead {
+    font-size: 28px;
+    color: #333333;
+    margin: 0 0 8px 0;
+    text-align: center;
+    font-weight: bold;
+    line-heright: 22px;
+}
+
+.product-page .purchaceSubHead {
+    text-align: center;
+    font-size: 15px;
+    margin: 0 0 35px;
+}
+
+.product-page .purchaceSubHead a {
+    text-decoration: none;
+}
+
+.product-page .avalibleTxt {
+    margin: 230px 0 0 57px;
+    font-size: 12px;
+    line-height: 14px;
+    vertical-align: text-bottom;
+    width: 135px;
+    float: left;
+    font-weight: bold;
+}
+
+.product-page .cpuBlistCon {
+    color: #333333;
+    margin: 44px 25px 0 30px;
+    width: 258px;
+    float: left;
+}
+
+.product-page .cpuBlistHead {
+    font-size: 14px;
+    color: #333333;
+    margin-bottom: 4px;
+    font-weight: bold;
+    line-height: 14px;
+}
+
+.product-page .cpuBlistCon ul {
+    margin: 0;
+    padding: 0;
+}
+
+.product-page .cpuBlistCon ul li {
+    font-size: 12px;
+    margin: 0 0 6px 16px;
+    padding: 0;
+    line-height: 14px;
+}
+
+.product-page .preorderCon {
+    margin-top: 44px;
+    float: left;
+    width: 380px;
+}
+
+.product-page .iltSub {
+    font-style: italic;
+    font-size: 10px;
+    font-weight: normal;
+}
+
+.product-page .priceLeader {
+    margin-top: 0;
+}
+
+.product-page ul.leaders {
+    margin-left: 0;
+    padding-left: 0;
+    max-width: 409px;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    overflow: hidden;
+    list-style: none;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 14px;
+}
+
+.product-page ul.leaders li {
+    margin-bottom: 10px;
+}
+
+.product-page ul.leaders li:before {
+    float: left;
+    width: 0;
+    white-space: nowrap;
+    content: ". . . . . . . . . . . . . . . . . . . . " ". . . . . . . . . . . . . . . . . . . . " ". . . . . . . . . . . . . . . . . . . . " ". . . . . . . . . . . . . . . . . . . . ";
+}
+
+.product-page ul.leaders span:first-child {
+    padding-right: 0.33em;
+    background: #efeae2;
+}
+
+.product-page ul.leaders span + span {
+    float: right;
+    padding-left: 0.33em;
+    background: #efeae2;
+}
+
+.product-page .redTxt {
+    color: #CB1543;
+}
+
+.product-page .lowerTxt {
+    font-weight: normal;
+}
+
+.product-page .studentLessonsCon {
+    background: #efeae2;
+    padding: 20px 0 20px 0;
+    overflow: hidden;
+}
+
+.product-page .studentLessonsHead {
+    font-size: 28px;
+    color: #333333;
+    margin: 0 0 20px 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+.product-page .lesonTopicBoxCon {
+    width: 660px;
+    margin: 50px auto 0;
+    overflow: hidden;
+}
+
+.product-page .lessonTopicCon {
+    float: left;
+    background: #fff;
+    width: 601px;
+    border: 1px solid #333333;
+}
+
+.product-page .lessonTopicsHead {
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.product-page .lessonBoxBorder {
+    float: left;
+    width: 300px;
+    border-right: 1px solid #333;
+    height: 180px;
+}
+
+.product-page .right-content {
+    width: 275px;
+    float: left;
+    padding-left: 25px;
+    padding-top: 10px;
+}
+
+.product-page .lessonTxt {
+    margin: 0;
+    padding: 0;
+    color: #3f3f3f;
+    font-size: 11px;
+    line-height: 21px;
+}
+
+.product-page .lessonTxt ul {
+    margin-left: 18px;
+    padding-left: 0;
+    color: #3f3f3f;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.product-page .lessonTxt ul li {
+    color: #3f3f3f;
+}
+
+.product-page .lessonNamesBox {
+    width: 147px;
+    float: left;
+}
+
+.product-page .lessonNameTxt {
+    margin: 0 0 0 8px;
+    padding: 0;
+    color: #666;
+    font-size: 11px;
+    line-height: 21px;
+}
+
+.product-page .ltPostTxt {
+    font-size: 10px;
+    line-height: 12px;
+    color: #3f3f3f;
+    margin-top: 22px;
+    clear: both;
+    float: left;
+}
+
+.product-page .scopeAndSeq {
+    float: left;
+    width: 250px;
+    margin-left: 125px;
+    margin-top: 15px;
+}
+
+.product-page .scopeAndSeq img {
+    text-align: center;
+}
+
+.product-page .scopeAndSeqIntroTxt {
+    text-align: center;
+    margin-top: -20px;
+}
+
+.product-page .scopeAndSeqIntroTxt a {
+    text-decoration: none;
+    text-align: center;
+    color: #00698f;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-top: -20px;
+}
+
+.product-page .scopeAndSeqIntroTxt a:hover {
+    text-decoration: underline;
+}
+
+.product-page .ltPostSubTxt {
+    text-align: center;
+    font-size: 12px;
+    font-weight: normal;
+    color: #666;
+    margin-top: -4px;
+}
+
+.product-page .slBoxCon {
+    width: 660px;
+    margin: 50px auto 0;
+    float: left;
+    overflow: hidden;
+}
+
+.product-page .sampleLessonSubheda {
+    font-weight: bold;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.product-page .unBldTxt {
+    font-weight: normal;
+    color: #4D4D4D;
+}
+
+.product-page .studentLessonSampleCon,
+.product-page .SlTxt {
+    width: 258px;
+    float: left;
+}
+
+.product-page .studentLessonSampleTxt {
+    margin-bottom: 0px;
+    padding-bottom: 0;
+}
+
+.product-page .studentLessonSampleTxt a {
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.product-page .studentLessonSampleTxt a:hover {
+    text-decoration: underline;
+}
+
+.product-page .studentLessonSampleCon ul.studentLessonSampleList {
+    margin: -2px 0 0 18px;
+    padding: 0;
+    color: #666;
+    font-size: 12px;
+}
+
+.product-page .waysToStaySafeCon,
+.product-page .WtssTxt {
+    float: left;
+    width: 185px;
+    margin-left: 20px;
+}
+
+.product-page .waysToStaySafeCon img {
+    margin-bottom: 12px;
+}
+
+.product-page .WtssTxt,
+.product-page .songtxt,
+.product-page div.lesonTopicBoxCon div.slBoxConLinks div.SlTxt p.studentLessonSampleTxt {
+    text-align: center;
+}
+
+.product-page .waysToStaySafeSongCon,
+.product-page .songtxt {
+    float: left;
+    width: 175px;
+    margin-left: 20px;
+}
+
+.product-page .waysToStaySafeSongCon p {
+    text-align: center;
+    margin-top: 4px;
+}
+
+.product-page .waysToStaySafeSongCon img {
+    margin: 85px 0 56px 35px;
+    width: 105px;
+}
+
+.product-page .slBoxConLinks {
+    width: 660px;
+    margin: 0 auto;
+    clear: both;
+    overflow: hidden;
+}
+
+.product-page .callToOrdertxt2 {
+    margin: 16px 0;
+}
+
+.product-page .callToOrdertxt2 p {
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+}
+
+.product-page .callToOrdertxt2 p a {
+    text-decoration: none;
+}
+
+.product-page .familyMaterialsCon {
+    background: #efeae2;
+    padding: 20px 0 20px 0;
+    overflow: hidden;
+}
+
+.product-page .familyMaterialsHead {
+    font-size: 28px;
+    color: #333333;
+    margin: 0 0 20px 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+.product-page .famMatTxt {
+    width: 425px;
+    float: left;
+    margin-left: 25px;
+    padding: 0 5px;
+}
+
+.product-page .famMatTxt p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #4d4d4d;
+}
+
+.product-page .famMatTxt2 {
+    float: left;
+    font-size: 14px;
+    line-height: 20px;
+    color: #4d4d4d;
+    margin: 8px 35px 0;
+    clear: both;
+}
+
+.product-page .famImgCon {
+    float: left;
+    margin-left: 20px;
+    width: 230px;
+}
+
+.product-page .familyImgTxt {
+    font-size: 12px;
+    font-weight: normal;
+    color: #4d4d4d;
+    margin-top: 20px;
+    width: 240px;
+}
+
+.product-page .famImgCon img {
+    float: left;
+    width: 230px;
+}
+
+.product-page .famImgSubhead a {
+    color: #fff;
+    font-size: 14px;
+    float: left;
+    margin: -20px 0 0 457px;
+    display: block;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    text-decoration: none;
+}
+
+.product-page .avalibleTxt02 {
+    margin: -10px 0 0 57px;
+    font-size: 12px;
+    line-height: 14px;
+    vertical-align: text-bottom;
+    width: 215px;
+    float: left;
+    font-weight: bold;
+}
+
+.product-page .cpuBlistCon02 {
+    color: #333333;
+    margin: -6px 25px 20px 110px;
+    width: 258px;
+    float: left;
+}
+
+.product-page .preorderCon02 {
+    margin-left: 160px;
+    margin-top: 44px;
+    float: left;
+    width: 440px;
+}
+
+.product-page .section-four p,
+.product-page .section-four a {
+    font-size: 15px;
+    text-align: center;
+}
+
+.product-page .adviser-section {
+    margin: 10px 0 0 100px;
+}
+
+.product-page .adviser-section .advisers {
+    width: 280px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 30px;
+}
+
+.product-page .bottom-container-one p.cpu-small-tx {
+    line-height: 15px;
+    margin: 7px 0;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .product-page .mobile-hero {
+        display: block;
+        width: 100%;
+    }
+    .product-page .desktop-hero {
+        display: none;
+    }
+}
+
+.top-anchor {
+    color: #ef4836;
+    text-align: right;
+    margin: 15px 5px;
+}
+
+.call-tp-order-tx {
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    margin: 16px 0;
+}
+
+
+/*style added by Riva to make button on BPU page*/
+
+.product-page .button-container-one a {
+    display: inline-block;
+    vertical-align: top;
+    background: #007096;
+    cursor: pointer;
+    color: #fff;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    width: 300px;
+    padding: 4px 2px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 4px;
+    font-size: 13px;
+}
+
+.product-page .button-container-one a:hover {
+    background: #4ba0c8;
+}
+
+.product-page .button-container-two a {
+    display: inline-block;
+    vertical-align: top;
+    background: #007096;
+    cursor: pointer;
+    color: #fff;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    width: 210px;
+    padding: 8px 2px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 4px;
+    font-size: 13px;
+}
+
+.product-page .button-container-two a:hover {
+    background: #4ba0c8;
+}
+
+
+/*end of marketing page styles*/
+
+
+/*http://www.secondstep.org/Kindergarten/Families/Child-Protection-Unit/Sexual-Abuse-Prevention/Talk-About-It/Communication-Strategies*/
+
+
+/*video module*/
+
+.rel-vid-container {
+    width: 100%;
+    padding: 10px 0;
+}
+
+.rel-vid-container .rel-vid {
+    width: 153px;
+    float: left;
+    margin: 10px 10px 10px 0;
+}
+
+.rel-vid-container .rel-vid img {
+    width: 100%;
+}
+
+.rel-vid-container .rel-vid-title {
+    margin: 5px 0 0 0;
+    font-size: 12px;
+}
+
+.rel-vid-container .clear-both {
+    clear: both;
+}
+
+
+/*three button nav modules*/
+
+.family_materials_top {
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+
+.family_materials_top ul {
+    list-style-type: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.family_materials_top li {
+    float: left;
+    list-style-type: none;
+    list-style: none;
+}
+
+.family_materials_top ul li a {
+    text-decoration: none;
+    color: #fff;
+    margin: 3px;
+    display: block;
+    font-size: 15px;
+    background: #b1b1b1;
+    padding: 2px 10px;
+}
+
+.family_materials_top ul li a:hover {
+    background: #777;
+    transition: all 0.15s ease-in;
+    -webkit-transition: all 0.15s ease-in;
+}
+
+a.current:visited {
+    background: #777;
+    color: #fff;
+}
+
+a.current:link {
+    background: #777;
+    color: #fff;
+    pointer-events: none;
+    cursor: default;
+}
+
+
+/*http://www.secondstep.org/Kindergarten/Families/Child-Protection-Unit/Sexual-Abuse-Prevention/Get-The-Facts/Childhood-Sexual-Development-Chart
+  
+table*/
+
+.sdc-table .tg {
+    border-collapse: collapse;
+    border-spacing: 0;
+    color: #000;
+}
+
+.sdc-table .tg td {
+    font-size: 14px;
+    padding: 10px 5px;
+    border: solid 1px #999;
+    overflow: hidden;
+    word-break: normal;
+    vertical-align: top;
+}
+
+.sdc-table .tg th {
+    font: 16px;
+    font-weight: bold;
+    padding: 10px 5px;
+    border: solid 1px #999;
+    overflow: hidden;
+    word-break: normal;
+    valign: top;
+}
+
+.sdc-table .tg span {
+    color: #ce1443;
+}
+
+.sdc-table .tg-031d {
+    background-color: #ce1443;
+    font-size: 18px;
+}
+
+.sdc-table .tg-031d span {
+    color: #fff;
+}
+
+.sdc-table .tg-031e ul {
+    margin: 0 15px;
+}
+
+.sdc-table .tg-031e ul {
+    font-size: 12px;
+}
+
+.sub-title {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+
+/*sap families styles*/
+
+.watch_out h5 {
+    line-height: 1.3em;
+}
+
+.sap-large-bullet-links a {
+    color: #ce1443;
+    font-size: 18px;
+}
+
+.sap-large-bullet-links li {
+    color: #ce1443;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.sap-side-video-container .align_videos {
+    margin-left: 20px;
+}
+
+.sap-side-video-container .relvid_container {
+    width: 100%;
+}
+
+.sap-side-video-container .relvid {
+    width: 100%;
+    float: left;
+    margin: 8px 0px -5px;
+}
+
+.sap-side-video-container .relvid img {
+    width: 123px;
+    float: left;
+}
+
+.sap-side-video-container .relvid_title {
+    margin: 0 15px;
+    font-size: 12px;
+    float: left;
+    width: 56px;
+}
+
+.sap-side-video-container .rule {
+    color: #d8d8d8;
+    width: 92%;
+}
+
+.sap-side-video-container .clearboth {
+    clear: both;
+}
+
+.resource-sap .Larticle {
+    width: 45%;
+    margin: 15px 10px 10px 0;
+    float: left;
+}
+
+.resource-sap .Rarticle {
+    width: 45%;
+    margin: 15px 0 10px 10px;
+    float: right;
+}
+
+.resource-sap .Larticle h5,
+.Rarticle h5 {
+    margin-bottom: 5px;
+}
+
+.resource-sap .clearboth {
+    clear: both
+}
+
+
+/*style for this url:http://www.secondstep.org/Grade-6/Teachers-Counselors/Second-Step-Kit/Teach-Reinforce/Lesson-Features*/
+
+.all-caps {
+    text-transform: uppercase;
+}
+
+.title-video-small-wide {
+    margin: 0 15px;
+    font-size: 12px;
+    float: left;
+    width: 72px;
+    text-align: left;
+}
+
+.title-video-small-wide p {
+    font-size: 12px;
+}
+
+.al-center {
+    text-align: center;
+}
+
+.p-link-spacing p {
+    margin: 10px 0;
+    padding: 0;
+}
+
+.dvd-img-section {
+    display: inline-block;
+    vertical-align: top;
+    margin: 12px 20px 20px 0;
+    border: 3px solid #999;
+}
+
+.tx-img-section {
+    display: inline-block;
+    vertical-align: top;
+    width: 190px;
+    margin: 8px 0;
+}
+
+.implement-section-left,
+.implement-section-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.implement-section-left {
+    width: 275px;
+    padding-right: 20px;
+}
+
+
+/*video gallery title style*/
+
+.video-gallery-title-2 {
+    margin-right: 5px;
+    line-height: 20px;
+    margin-bottom: 20px;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.p-tag {
+    font-size: 13px;
+}
+
+
+/*NOTe: wider tan sidebar box on G6 staff training page*/
+
+.rgtCol-wide {
+    width: 189px;
+    margin-left: 17px;
+    background: #f4f1e9;
+    padding: 12px;
+    line-height: 2.3;
+}
+
+.rgtCol-wide ul {
+    padding: 0;
+    margin: 15px 0;
+}
+
+.rgtCol-wide ul,
+.rgtCol-wide ul li {
+    list-style-type: none;
+    margin: 10px 0;
+}
+
+
+/*update to products pages cpu bpu*/
+
+.right-margin-thirty {
+    margin-right: 30px;
+}
+
+.buttonCon {
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.buttonCon a {
+    display: block;
+    color: #fff !important;
+    text-align: center;
+    padding: 10px 12px;
+    background-color: #4b82a8;
+    cursor: pointer;
+}
+
+.buttonCon a:hover {
+    text-decoration: none;
+}
+
+
+/*Three small bottom videos in row*/
+
+.small-bottom-video-container {
+    width: 100%;
+}
+
+.small-bottom-video-container .small-bottom-video-box {
+    width: 156px;
+    float: left;
+    margin-right: 16px;
+}
+
+.small-bottom-video img {
+    max-width: 160px;
+}
+
+.small-bottom-video-container .small-bottom-video-title {
+    margin: 5px 0 0 0;
+    font-size: 12px;
+}
+
+.small-bottom-video-container .small-bottom-video-box-right {
+    margin-right: 0px;
+}
+
+
+/*right col spanish ad*/
+
+.right-col-ad {
+    width: 176px;
+    margin-left: 35px;
+    padding: 0 12px;
+    border: 1px solid grey;
+}
+
+.right-col-ad ul {
+    padding: 0;
+    margin: 15px 0;
+}
+
+.right-col-ad ul li {
+    list-style-type: none;
+}
+
+.right-col-ad ul li a {
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 8px;
+}
+
+
+/*added for songs pages*/
+
+.fb-audio-rule {
+    width: 88%;
+    height: 1px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    background-color: #d8d8d8;
+}
+
+.fb-audio-song_header {
+    color: #000000;
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 25px;
+}
+
+.fb-audio-title {
+    padding-top: 5px;
+    font-size: 18px;
+}
+
+.clear {
+    clear: both;
+}
+
+
+/*styles for longer tan video box with links
+http://www.secondstep.org/Kindergarten/Teachers-Counselors/Child-Protection-Unit/Overview/Goals-Lesson-Sequence*/
+
+.sidebar-video-tan-box-long {
+    display: block;
+    overflow: auto;
+    padding: 5px 20px;
+}
+
+.sidebar-tan-box-long ul {
+    padding: 0;
+    margin: 15px 0;
+}
+
+.sidebar-tan-box-long ul,
+.sidebar-tan-box-long ul li {
+    list-style-type: none;
+    margin: 10px 0;
+}
+
+.sidebar-video-tan-box-long ul li a {
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.sidebar-video-tan-box-long ul,
+.sidebar-video-tan-box-long ul li {
+    list-style-type: none;
+    margin: 3px 0;
+}
+
+
+/*styles for communication kit
+http://www.secondstep.org/Kindergarten/Program-Coordinators/Child-Protection-Unit/Overview/Communication-Kit*/
+
+.kit {
+    border-top: solid 1px #777;
+    text-align: center;
+}
+
+.link_content {
+    margin: 20px 0px;
+    width: 100%
+}
+
+.link_content div {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.kit_header {
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px 0px 0px 0px;
+    color: #888;
+}
+
+.kit img {
+    margin-bottom: 5px;
+    border: solid 1px #999;
+}
+
+
+/* full kit button */
+
+.button_div {
+    width: 100%;
+    margin-left: 9%;
+}
+
+.button {
+    padding: 8px 5px 8px 5px;
+    font-weight: bold;
+    background: #34495e;
+    color: #fff !important;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    border-radius: 4px;
+    display: block;
+    width: 180px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.button:hover {
+    text-decoration: none;
+    color: #fff;
+    background: #7f8c8d;
+    transition: all 0.15s ease-in;
+    -webkit-transition: all 0.15s ease-in;
+}
+
+.clear {
+    clear: both;
+}
+
+.adjust_left {
+    margin-left: 20px;
+}
+
+
+/*style for 1/2 full module width content*/
+
+.half {
+    width: 48%;
+}
+
+.p-above-ul {
+    margin-bottom: 0;
+    padding-bottom: 5px;
+}
+
+.table-link-spacing p {
+    margin: 0 0 12px 0;
+}
+
+
+/*http://www.secondstep.org/Kindergarten/Program-Coordinators/Child-Protection-Unit/Overview/Goals-Lesson-Sequence  
+class for hr that adjusts bottom margin when used in tan box with video*/
+
+.rule-adjusted-margin {
+    margin: 20px 0 0px;
+}
+
+.img-demo:hover {
+    cursor: pointer;
+}
+
+.safty-cards .header {
+    font-size: 18px;
+    color: #98405c;
+}
+
+.safty-cards .third-col {
+    width: 250px;
+    float: left;
+}
+
+.safty-cards .middle-col {
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 230px;
+    float: left;
+}
+
+.safty-cards .clear {
+    clear: both;
+}
+
+.safty-cards hr.rule {
+    width: 97%;
+}
+
+
+/*added for medium length titles*/
+
+#toggle-container .toggle-tab .toggle-col .item-three p.mediumtitles {
+    width: 155px;
+}
+
+
+/*http://www.secondstep.org/Grade-1/Teachers-Counselors/Child-Protection-Unit/Downloads/lesson-materials*/
+
+.left_col_1,
+.right_col_1,
+.third_col {
+    float: left;
+    width: 33.33%;
+}
+
+.movetext {
+    padding-left: 30px;
+}
+
+
+/*moves Core Component House graphic to the right*/
+
+.wide-space-left {
+    margin-left: 65px;
+}
+
+.sidebar-margin-left-25 {
+    margin-left: 25px;
+}
+
+
+/*adds more padding to existing tables*/
+
+.tg td {
+    padding: 10px;
+}
+
+.side-bar-quote-box {
+    width: 230px;
+    height: 332px;
+}
+
+.side-bar-quote-box p {
+    font-size: 18px;
+    line-height: 28px;
+    color: #fff;
+    padding: 22px;
+}
+
+.side-bar-quote-box p.less-padding {
+    padding: 17px;
+}
+
+.side-bar-quote-box p.author {
+    font-size: 14px;
+    line-height: 18px;
+    padding: 0 24px 20px
+}
+
+.side-bar-quote-box.yelow-back-ground {
+    background-color: #fcbd10;
+}
+
+.side-bar-quote-box.purple-back-ground {
+    background-color: #a180a6;
+}
+
+.side-bar-quote-box.blue-back-ground {
+    background-color: #4e8697;
+}
+
+.side-bar-quote-box.green-back-ground {
+    background-color: #479e95;
+}
+
+.side-bar-quote-box.blue-green-back-ground {
+    background-color: #66a4a9;
+}
+
+.side-bar-quote-box.purple-back-ground {
+    background-color: #c2aabf;
+}
+
+
+/*el T&C Teaching Weekly Themes Image adjustment*/
+
+.23percent {
+    width: 23%;
+}
+
+.five-px-right {
+    margin: 0 5px 10px 0;
+}
+
+
+/*new button style for live training pages*/
+
+.page-link-button {
+    width: 220px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.page-link-button .inner-button {
+    padding: 8px 5px 8px 5px;
+    font-weight: bold;
+    background: #34495e;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 4px;
+    display: block;
+    width: 180px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.page-link-button .inner-button:hover {
+    text-decoration: none;
+    color: #fff;
+    background: #7f8c8d;
+    transition: all 0.15s ease-in;
+    -webkit-transition: all 0.15s ease-in;
+}
+
+.rule-header.two-third-rh {
+    width: 66%;
+}
+
+.rule-header.one-third-rh {
+    width: 31%;
+}
+
+
+/*adds line height where titles are too lengthy*/
+
+.add-height {
+    line-height: 1.2em;
+}
+
+li.li-list-size-med {
+    line-height: 21px;
+    font-size: 14pxss;
+}
+
+ul.list-size-med {
+    line-height: 21px;
+    font-size: 14px;
+}
+
+.el-sap-table .tg {
+    border-collapse: collapse;
+    border-spacing: 0;
+    color: #000;
+}
+
+.el-sap-table .tg td {
+    font-size: 14px;
+    padding: 10px 5px;
+    border: solid 1px #999;
+    overflow: hidden;
+    word-break: normal;
+    vertical-align: top;
+}
+
+.el-sap-table .tg th {
+    font: 16px;
+    font-weight: bold;
+    padding: 10px 5px;
+    border: solid 1px #999;
+    overflow: hidden;
+    word-break: normal;
+    valign: top;
+}
+
+.el-sap-table .tg span {
+    color: #a1d4a5;
+}
+
+.el-sap-table .tg-031d {
+    background-color: #a1d4a5;
+    font-size: 18px;
+}
+
+.el-sap-table .tg-031d span {
+    color: #fff;
+}
+
+.el-sap-table .tg-031e ul {
+    margin: 0 15px;
+}
+
+.el-sap-table .tg-031e ul {
+    font-size: 12px;
+}
+
+
+/*Used on T & C Classroom CLimate page BPU*/
+
+.icon-left {
+    width: 58%;
+    margin-left: 15px;
+}
+
+.tan-background {
+    background: #f4f1e9;
+    padding: 5px;
+}
+
+.lead_in2 {
+    font-size: 13px;
+    font-family: 'arial', serif;
+    line-height: 1.4em;
+    color: #666;
+    padding-left: 11px;
+}
+
+.list {
+    font-family: 'arial', serif;
+    font-weight: 600;
+    line-height: 1.7em;
+    font-size: 13px;
+}
+
+.rule-header-thick {
+    background-color: #ddd;
+    height: 3px;
+    overflow: hidden;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+
+/*added for BPU Teach Reinforce page*/
+
+.list_nobullet ul li {
+    list-style-type: none;
+}
+
+.wide-space-left2 {
+    margin-right: 55px;
+}
+
+.left-paragraph {
+    width: 59%;
+    padding-right: 4px;
+}
+
+
+/*for BPU*/
+
+#toggle-container .toggle-tab .toggle-col.three-col-extrawide {
+    width: 730px;
+}
+
+
+/*http://www.secondstep.org/Kindergarten/Teachers-Counselors/Bullying-Prevention-Unit/Teach-Reinforce/Positive-Classroom-Climate*/
+
+.size {
+    width: 55%;
+    margin-left: 15px;
+}
+
+.tan-background {
+    background: #f4f1e9;
+    padding: 5px;
+}
+
+.classroom-climate h5.headline {
+    font-size: 17px;
+}
+
+
+/*http://www.secondstep.org/Kindergarten/Teachers-Counselors/Bullying-Prevention-Unit/Overview/Research-Alignment    */
+
+.three-col-container {
+    width: 730px;
+}
+
+.three-col-container .item-one {
+    height: 270px;
+    padding-right: 60px;
+    float: left;
+}
+
+.three-col-container .item-one-last {
+    height: 270px;
+    padding-right: 0;
+    float: left;
+}
+
+
+/*button postioning when in a side bar*/
+
+.side-bar-button-postion {
+    margin: 249px 0 0 30px;
+}
+
+
+/*table layout for this page - http://www.secondstep.org/Kindergarten/Training/Child-Protection-Unit*/
+
+.training-table {
+    margin-top: 20px;
+}
+
+.training-table .tg {
+    border-collapse: collapse;
+    border-spacing: 0;
+    color: #000;
+}
+
+.training-table .tg td {
+    font-size: 14px;
+    padding: 10px 5px;
+    border: solid 1px #999;
+    overflow: hidden;
+    word-break: normal;
+    vertical-align: top;
+}
+
+.training-table .tg th {
+    font: 16px;
+    font-weight: bold;
+    padding: 10px 5px;
+    border: solid 1px #999;
+    overflow: hidden;
+    word-break: normal;
+    valign: top;
+}
+
+.training-table .tg-031d {
+    background-color: #74B979;
+    font-size: 16px;
+}
+
+.training-table .tg-031d span {
+    color: #fff;
+}
+
+.training-table .tg-031e ul {
+    margin: 0 30px;
+}
+
+.training-table .tg-031e ul {
+    font-size: 12px;
+}
+
+.training-table #head {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 5px;
+    border: solid 1px #999;
+    overflow: hidden;
+    word-break: normal;
+    valign: top;
+}
+
+.training-table .duration {
+    font-size: 12px;
+    margin-left: 30px;
+}
+
+.training-table .margin {
+    margin-left: 15px;
+}
+
+.training-table col {
+    width: 240px;
+}
+
+
+/*for el ss table*/
+
+.el-table .tg th.tg-031f {
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px 5px;
+    border-left,
+    border-right: solid 1px #999;
+    overflow: hidden;
+    word-break: normal;
+    valign: top;
+}
+
+.el-table .tg {
+    table-layout: fixed;
+}
+
+.el-table .tg {
+    font-color: #6C6565;
+}
+
+
+/*http://www.secondstep.org/Site/Principal-Toolkit/ssp*/
+
+.principal-section-one .header1 {
+    color: #333;
+    font-size: 12px;
+    clear: both;
+    font-family: muli;
+    margin: 5px 0;
+}
+
+.principal-section-one .header2 {
+    color: #333;
+    font-size: 15px;
+    clear: both;
+    font-family: muli;
+    margin: 10px 0;
+}
+
+.principal-section-one .right_content {
+    float: left;
+    width: 53%;
+    margin: 0px 0 0 30px;
+}
+
+.principal-section-one .left_content {
+    float: left;
+    width: 37%;
+}
+
+.principal-section-one .clear {
+    clear: both;
+}
+
+.principal-section-one .ra_rule_2 {
+    color: #ddd;
+    width: 90%;
+    margin: -5px 0 0 0;
+}
+
+.principal-section-one .vert_line {
+    border-right: solid grey 1px;
+    overflow: auto;
+    margin: 25px 12px;
+}
+
+.principal-section-one .main_header {
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.principal-section-one img {
+    width: 325px;
+}
+
+.principal-section-two .small-video {
+    float: left;
+    width: 50%;
+    margin-top: 45px;
+}
+
+.principal-section-two .time {
+    font-family: muli;
+    color: #333;
+    font-size: 11px;
+    margin: 5px 0 11px 117px;
+}
+
+.principal-section-two .time1 {
+    font-family: muli;
+    color: #333;
+    font-size: 11px;
+    margin: 5px 0 11px 117px;
+}
+
+.principal-section-two .ra_rule {
+    color: #ddd;
+    margin: -5px 5px 0 0;
+    width: 139px;
+}
+
+.principal-section-two .clear {
+    clear: both;
+}
+
+.principal-section-two .right_side {
+    margin-right: 25px;
+    margin-bottom: 30px;
+}
+
+.principal-section-two img {
+    width: 135px;
+}
+
+.research-alignments-section .third-col {
+    width: 416px;
+    float: left;
+}
+
+.research-alignments-section .middle-col {
+    margin-left: 40px;
+    width: 382px;
+    float: left;
+}
+
+.research-alignments-section .clear {
+    clear: both;
+}
+
+.research-alignments-section .main-wrapper-3 {
+    margin: 35px 0 0 69px;
+    overflow: auto;
+}
+
+.research-alignments-section .ra_subheaders {
+    font-family: muli;
+    font-size: 1.55em;
+    margin-bottom: 15px;
+}
+
+.research-alignments-section .ss_subheaders {
+    font-family: muli;
+    font-size: 1.55em;
+    margin: 50px 0 15px 0;
+}
+
+.research-alignments-section .rectangle {
+    border: solid 1px #c7cecf;
+}
+
+.staff-student-section .header {
+    font-size: 25px;
+    margin-top: 35px;
+}
+
+.staff-student-section .left-col {
+    width: 156px;
+    float: left;
+}
+
+.staff-student-section .right-col-rec {
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 341px;
+    float: left;
+    margin: 9px 0 75px 20px;
+}
+
+.staff-student-section .right-col-worksheet {
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 497px;
+    float: left;
+    margin: 25px 0 41px 20px;
+}
+
+.staff-student-section .right-col-success {
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 497px;
+    float: left;
+    margin: 24px 0 75px 20px;
+}
+
+.staff-student-section .right-col-comm {
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 497px;
+    float: left;
+    margin: 46px 0 15px 20px;
+}
+
+.staff-student-section .main-wrapper-1 {
+    margin: 40px 0 0 71px;
+    overflow: auto;
+}
+
+.staff-student-section .subheaders {
+    font-family: muli;
+    font-size: 1.35em;
+    margin-bottom: 4px;
+}
+
+.staff-student-section .staffmonths-1-col,
+.staff-student-section .staffmonths-2-col,
+.staff-student-section .staffmonths-3-col {
+    float: left;
+    width: 285px;
+}
+
+.staff-student-section .space-above {
+    margin-top: 30px;
+}
+
+.staff-student-section .ind-months {
+    margin-top: 30px;
+}
+
+.staff-student-section .list_1 {
+    float: left;
+    width: 100%;
+}
+
+.staff-student-section .list_2 {
+    float: left;
+    width: 157px;
+}
+
+.staff-student-section .list_3 {
+    float: left;
+    width: 157px;
+}
+
+.staff-student-section .plans {
+    padding-left: 10px;
+}
+
+.staff-student-section .large_1 {
+    font-size: 1.35em;
+    line-height: 1.7em;
+}
+
+.staff-student-section .large_1 li {
+    list-style-type: none;
+}
+
+.staff-student-section .large {
+    font-size: 1.35em;
+}
+
+
+/* http://www.secondstep.org/Early-Learning/Teachers-Counselors/Child-Protection-Unit/Videos-Downloads/Weekly-Theme-Materials*/
+
+
+/*.weekly-theme-materials p a img {
+  margin-right: 8px;
+}*/
+
+.weekly-theme-materials p a img.addcolor {
+    margin-right: 8px;
+    background-color: #A1d4a5;
+}
+
+.weekly-theme-materials .txtLink {
+    vertical-align: -12px;
+}
+
+.weekly-theme-materials .large-text-box {
+    padding-left: 50px;
+}
+
+.weekly-theme-materials .caps {
+    text-transform: uppercase;
+    letter-spacing: .01em;
+    color: #5A5959;
+    margin-top: 9px;
+}
+
+.weekly-theme-materials .left_col {
+    float: left;
+    width: 50%;
+}
+
+.weekly-theme-materials .rules_cards_3 {
+    margin: 6px 0 19px 20px;
+}
+
+.weekly-theme-materials .rules_cards_2 {
+    margin: 6px 0 19px 37px;
+}
+
+.weekly-theme-materials .rules_cards {
+    margin-left: 18px;
+}
+
+.weekly-theme-materials .right_col {
+    float: left;
+    width: 50%;
+}
+
+.weekly-theme-materials .left_col_1,
+.weekly-theme-materials .right_col_1,
+.weekly-theme-materials .third_col {
+    float: left;
+    width: 33.33%;
+}
+
+.weekly-theme-materials .third_col_cards {
+    float: left;
+    width: 31.33;
+    margin-left: 28px;
+}
+
+.weekly-theme-materials .main_container {
+    width: 100%;
+}
+
+.weekly-theme-materials .styled_HR_1 {
+    color: #444;
+    margin: 2px 33px 20px 0;
+    width: 90%;
+}
+
+.weekly-theme-materials .styled_HR {
+    color: #444;
+}
+
+.weekly-theme-materials .background_color {
+    background-color: #f4f1e9;
+    margin: 33px 33px 10px 0;
+    overflow: hidden;
+    padding: 10px;
+    height: 375px;
+}
+
+.weekly-theme-materials .center {
+    padding-left: 22px;
+}
+
+.weekly-theme-materials .center2 {
+    padding-left: 47px;
+}
+
+.weekly-theme-materials .movetext {
+    padding-left: 30px;
+}
+
+.weekly-theme-materials .subhead {
+    font-family: muli;
+}
+
+.weekly-theme-materials .second_container {
+    margin-left: 29px;
+}
+
+
+/*added margin bottom on 3-28-2016 rd*/
+
+.weekly-theme-materials .moveleft {
+    margin-left: 46px;
+    margin-bottom: 35px;
+}
+
+.weekly-theme-materials .moveleft1 {
+    margin-left: 46px;
+}
+
+.weekly-theme-materials .movesubhead {
+    margin-top: 20px;
+    padding-bottom: 0;
+}
+
+
+/*http://www.secondstep.org/Grade-4/Teachers-Counselors/Child-Protection-Unit/Videos-Downloads/Safety-Cards*/
+
+.safety-rule-cards .third-col {
+    width: 250px;
+    float: left;
+}
+
+.safety-rule-cards .middle-col {
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 250px;
+    float: left;
+}
+
+.safety-rule-cards .rule-header {
+    width: 500px;
+}
+
+.safety-rule-cards-2 .rule-header {
+    width: 500px;
+}
+
+.safety-rule-cards-2 .third-col {
+    width: 270px;
+    float: left;
+}
+
+.safety-rule-cards-2 .middle-col {
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 310px;
+    float: left;
+}
+
+
+/*http://www.secondstep.org/Grade-4/Teachers-Counselors/Child-Protection-Unit/Downloads/Safety-Cards/Safety-Card-Research-Project*/
+
+.researchTable th,
+.researchTable td,
+.researchTable tr {
+    vertical-align: middle;
+}
+
+.researchTable {
+    border-collapse: collapse;
+    border-spacing: 0px;
+    width: 600px;
+    padding: 0 5px;
+}
+
+.safetyGamesTable th,
+.safetyGamesTable td,
+.safetyGamesTable tr {
+    vertical-align: middle;
+}
+
+.safetyGamesTable {
+    border-collapse: collapse;
+    border-spacing: 0px;
+    width: 600px;
+    padding: 0 5px;
+}
+
+.safetyGamesTable .vertical-column-divider {
+    border: none;
+}
+
+.safetyGamesTable .vertical-column-divider-nobkcolor {
+    padding: 16px 8px;
+    border-right: none;
+}
+
+.safetyGamesTable .vertical-column-divider-right {
+    padding: 16px 8px;
+    border-right: thin solid #a8a8a8;
+}
+
+.nopad {
+    padding: 0px;
+}
+
+
+/*http://www.secondstep.org/Early-Learning/Teachers-Counselors/Child-Protection-Unit/Downloads/Weekly-Theme-Materials*/
+
+
+/*changed styles below rd 3-28-2016 */
+
+.weekly-theme-materials p a img.top-image {
+    width: 40px;
+}
+
+.weekly-theme-materials p a img.icon-95 {
+    width: 95px;
+}
+
+.weekly-theme-materials p a img.icon-85 {
+    width: 85px;
+}
+
+
+/*.weekly-theme-materials p a img.icon-105 {
+ width:105px;
+}*/
+
+.badge-container {
+    float: right;
+    width: 200px;
+}
+
+.badge-container h3 {
+    font-size: 22px;
+    text-align: center;
+}
+
+.badge-container img {
+    width: 200px;
+    margin: 0px auto;
+}
+
+.badge-container .p-one {
+    color: #006992;
+    font-size: 13px;
+    line-height: 15px;
+    font-weight: bold;
+    margin: -5px 0px 5px;
+}
+
+.badge-container textarea {
+    width: 190px;
+    height: 80px;
+    margin: 0px auto;
+    resize: none;
+    font-size: 9px;
+}
+
+.badge-container textarea a {
+    width: 200px;
+    border: 0;
+}
+
+.badge-container hr {
+    margin-top: 20px;
+    border-bottom-width: 2px;
+    border-bottom-color: #006992;
+    border-style: none none dotted;
+}
+
+.badge-container .p-two {
+    color: #006992;
+    font-size: 13px;
+    line-height: 15px;
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+.badge-container .button-one {
+    border: 1px solid #006992;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f9f3ec;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 8px;
+    padding: 3px 8px;
+    text-shadow: rgba(67, 35, 23, 0.74902) 1px 1px;
+    font-size: 14px;
+    width: 195px;
+    margin: 0px auto;
+    background-image: linear-gradient(#489bbb, #006992);
+}
+
+
+/*http://www.secondstep.org/Site/Communications-Kit*/
+
+.comm-kit-section article {
+    width: 60%;
+    float: left;
+}
+
+.comm-kit-section article p {
+    padding-right: 60px;
+}
+
+.comm-kit-section aside {
+    width: 40%;
+    float: right;
+    display: block;
+}
+
+.comm-kit-section .content {
+    overflow: hidden;
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+.comm-kit-section h3 {
+    color: #666;
+}
+
+.comm-kit-section .kit {
+    border-top: solid 1px #777;
+    text-align: center;
+}
+
+.comm-kit-section h5,
+.comm-kit-section h6 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.comm-kit-section .link_content {
+    margin: 10px 0px;
+    width: 100%;
+}
+
+.comm-kit-section .link_content div {
+    display: inline-block;
+    width: 49%;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.comm-kit-section .kit_header {
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px 0px 0px 0px;
+    color: #888;
+}
+
+.comm-kit-section .kit img {
+    padding-bottom: 5px;
+}
+
+.comm-kit-section div img {
+    border: solid 1px #999;
+    margin-bottom: 5px;
+}
+
+.comm-kit-section .button_div {
+    width: 100%;
+    margin-left: 23%;
+}
+
+.comm-kit-section .button {
+    padding: 8px 15px 8px 15px;
+    font-weight: bold;
+    background: #34495e;
+    color: #fff !important;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    border-radius: 4px;
+    display: block;
+    width: 180px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.comm-kit-section .button:hover {
+    text-decoration: none;
+    color: #fff;
+    background: #7f8c8d;
+    transition: all 0.15s ease-in;
+    -webkit-transition: all 0.15s ease-in;
+}
+
+.comm-kit-section .adjust_left {
+    margin-left: 20px;
+}
+
+.top-anchor-cpu {
+    color: #ef4836;
+    text-align: left;
+    margin: 15px 0 0 3px;
+    font-size: 13px;
+}
+
+.top-anchor-bpu {
+    color: #ef4836;
+    text-align: left;
+    margin: 15px 0 0 3px;
+    font-size: 13px;
+}
+
+.side-bar-video-link ul {
+    padding: 0;
+    margin: 15px 0;
+    list-style-type: none;
+}
+
+.side-bar-video-link ul li {
+    margin: 10px 0;
+    list-style-type: none;
+}
+
+.side-bar-video-link ul li a {
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+/*safety cards game cpu g4 style*/
+
+.safetycard-games .thirty {
+    width: 25%;
+    padding: 3px;
+}
+
+.safetycard-games .seventy {
+    width: 70%;
+    padding: 3px;
+    margin-left: 20px;
+}
+
+.safetycard-games .gameborder {
+    border: solid 1px #d49927;
+    height: auto;
+}
+
+.safetycard-games .game-row1 {
+    height: 45px;
+    padding: 10px 5px 5px 10px;
+}
+
+.safetycard-games .game-row2 {
+    height: 190px;
+    padding: 10px 5px 5px 10px;
+}
+
+.safetycard-games .game-row3 {
+    height: 125px;
+    padding: 10px 5px 5px 10px;
+}
+
+.safetycard-games .game-row4 {
+    padding: 10px 5px 5px 10px;
+}
+
+.safetycard-games .game-row5 {
+    padding: 10px 5px 5px 10px;
+}
+
+.safetycard-games .tan {
+    background-color: #f4f1e9;
+    padding: 0 10px 60px 5px;
+}
+
+.safetycard-games .pad {
+    padding: 5px;
+}
+
+
+/*g4 downloads*/
+
+.downloads .landing-page-article {
+    width: 45%;
+    margin: 0 25px 0 0;
+    float: left;
+}
+
+
+/*http://www.secondstep.org/early-learning/Teachers-Counselors/Second-Step-Kit/Downloads/plan-track*/
+
+.plan-track #toggle-container .toggle-tab .toggle-col .item-one a {
+    margin: 0;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.plan-track #toggle-container .toggle-tab .toggle-col .item-three {
+    padding-bottom: 20px;
+}
+
+.books-for-adults .book-title {
+    font-size: 16px;
+    font-family: 'Muli', arial, serif;
+    line-height: 1.4em;
+    color: #666;
+}
+
+.books-for-adults p {
+    font-size: 13px;
+}
+
+
+/* http://www.secondstep.org/grade4/teachers-counselors/child-protection-unit/downloads/lesson-materials/music-video  rd  3-25-16*/
+
+.music-note {
+    float: left;
+    width: 25px;
+    margin-right: 20px;
+}
+
+.mv-row {
+    margin-bottom: 5px;
+    height: 58px;
+}
+
+
+/*jay - 03.25.2016*/
+
+ul.no-bullet li {
+    list-style-type: none;
+}
+
+
+/*el teach weekly themes - rd-3-28-2016*/
+
+.teach-weekly-themes .drop_shadow {
+    border: solid 1px #ebebeb;
+    -webkit-box-shadow: 11px 10px 15px -11px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 11px 10px 15px -11px rgba(0, 0, 0, 0.6);
+    padding: 0 0 0 20px;
+    margin-bottom: 10px;
+    box-shadow: 11px 10px 15px -11px rgba(0, 0, 0, 0.6);
+}
+
+.teach-weekly-themes .drop_shadow .drop_shadow_nopad {
+    border: solid 1px #ebebeb;
+    -webkit-box-shadow: 11px 10px 15px -11px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 11px 10px 15px -11px rgba(0, 0, 0, 0.6);
+    margin-bottom: 10px;
+}
+
+.teach-weekly-themes .theme_bodycopy {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 21px;
+}
+
+.teach-weekly-themes .weeklythemes {
+    font-family: Muli;
+    font-size: 25px;
+    line-height: 14%;
+}
+
+.teach-weekly-themes .imagepad {
+    padding-bottom: 10px;
+}
+
+
+/*rd 3-28-2016 for weekly theme materials EL*/
+
+.forty-nine-wide {
+    width: 49%;
+    float: left;
+}
+
+
+/*Jay 3-29-2016 */
+
+.rgtCol p {
+    font-size: 12px;
+}
+
+
+/*rd 3-29-2016 Communications page*/
+
+.communications-kit article {
+    width: 60%;
+    float: left;
+}
+
+.communications-kit article p {
+    padding-right: 60px;
+}
+
+.communications-kit aside {
+    width: 40%;
+    float: right;
+    display: block;
+}
+
+.communications-kit .content {
+    overflow: hidden;
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+.communications-kit h3 {
+    color: #666;
+}
+
+.communications-kit .kit {
+    border-top: solid 1px #777;
+    text-align: center;
+}
+
+.communications-kit h5,
+.communications-kit h6 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.communications-kit .link_content {
+    margin: 10px 0px;
+    width: 100%;
+}
+
+.communications-kit .link_content div {
+    display: inline-block;
+    width: 49%;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.communications-kit .kit_header {
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px 0px 0px 0px;
+    color: #888;
+}
+
+.communications-kit .kit img {
+    padding-bottom: 5px;
+}
+
+.communications-kit div img {
+    border: solid 1px #999;
+    margin-bottom: 5px;
+}
+
+.communications-kit .button_div {
+    width: 100%;
+    margin-left: 23%;
+}
+
+.communications-kit .button {
+    padding: 8px 15px 8px 15px;
+    font-weight: bold;
+    background: #34495e;
+    color: #fff !important;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    border-radius: 4px;
+    display: block;
+    width: 180px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.communications-kit .button:hover {
+    text-decoration: none;
+    color: #fff;
+    background: #7f8c8d;
+    transition: all 0.15s ease-in;
+    -webkit-transition: all 0.15s ease-in;
+}
+
+.communications-kit .clear {
+    clear: both;
+}
+
+.communications-kit .adjust_left {
+    margin-left: 20px;
+}
+
+
+/*rd 3-30-16*/
+
+.tr-leftside {
+    width: 250px;
+    padding-right: 5px;
+    float: left;
+}
+
+.mindyeti-container {
+    padding: 0 20px 0 0;
+}
+
+.mindyeti-container .sky {
+    background-image: url("/Portals/0/mindyeti/img/bg.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.mindyeti-container .content {
+    width: 90%;
+    margin: auto;
+}
+
+.mindyeti-container .desktop-hero {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.mindyeti-container .desktop-hero img {
+    width: 100%;
+}
+
+.mindyeti-container h2,
+.mindyeti-container h3 {
+    font-family: BurbankBigCond-Black;
+}
+
+.mindyeti-container .whitebox {
+    padding: 50px 70px;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+.mindyeti-container .whitebox p,
+.mindyeti-container .whitebox li {
+    font-family: BurbankBigCond-Medium;
+    font-size: 20px;
+    letter-spacing: .04em;
+    line-height: 25px;
+    color: #333;
+}
+
+.mindyeti-container .text-box-one {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 0 0 30px;
+}
+
+.mindyeti-container .blue {
+    color: #27abcf;
+    font-size: 40px;
+    margin-top: 0px;
+}
+
+.mindyeti-container .trio-title {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.mindyeti-container .teal {
+    color: #50bdbf;
+    margin-top: 0px;
+    font-size: 40px;
+}
+
+.mindyeti-container .trio {
+    text-align: center;
+}
+
+.mindyeti-container .trio h3 {
+    color: #50bdbf;
+    letter-spacing: 1px;
+}
+
+.mindyeti-container .trio p {
+    color: #50bdbf;
+    padding: 0 70px;
+}
+
+.mindyeti-container .bottom-image img {
+    width: 425px;
+}
+
+.mindyeti-container .green {
+    color: #72ba44;
+    font-size: 40px;
+    margin-top: 0px;
+}
+
+.mindyeti-container .cta-social {
+    padding: 55px 0px 20px 0px;
+}
+
+.mindyeti-container .bottom-button {
+    float: left;
+    margin: -45px 0 0 45px;
+}
+
+.mindyeti-container .social {
+    float: right;
+    margin: -45px 45px 0 0;
+}
+
+.mindyeti-container .social div {
+    display: inline-block;
+    margin-right: 15px;
+    height: 40px;
+    width: 40px;
+}
+
+.mindyeti-container .row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+/*http://www.secondstep.org/about-principal-toolkit*/
+
+.principle-toolkit-top .hero-img {
+    width: 936px;
+}
+
+.principle-toolkit-top .intro-txt {
+    margin-top: 15px;
+    padding-bottom: 35px;
+    line-height: 25px;
+    font-size: 18px;
+    color: #595959;
+}
+
+.principle-toolkit {
+    width: 65%;
+    overflow: auto;
+    float: left;
+}
+
+.principle-toolkit .kit-list li {
+    margin-bottom: 8px;
+    font-size: 13px;
+}
+
+.principle-toolkit .kit-list ul li {
+    font-size: 13px;
+}
+
+.principle-toolkit ul.leaders {
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    overflow: hidden;
+    list-style: none;
+    line-height: 16px;
+    margin-left: 0;
+}
+
+.principle-toolkit ul.leaders li {
+    margin-bottom: 10px;
+}
+
+.principle-toolkit ul.leaders li:before {
+    float: left;
+    width: 0;
+    white-space: nowrap;
+    content: ". . . . . . . . . . . . . . . . . . . . . . . . . . " ". . . . . . . . . . . . . . . . . . . . " ". . . . . . . . . . . . . . . . . . . . " ". . . . . . . . . . . . . . . . . . . . " ". . . . . . . . . . . . . . . . . . . . ";
+}
+
+.principle-toolkit ul.leaders span:first-child {
+    padding-right: 0.33em;
+    background: #fff;
+}
+
+.principle-toolkit ul.leaders span + span {
+    float: right;
+    padding-left: 0.33em;
+    background: #fff;
+}
+
+.principle-toolkit .redTxt {
+    color: #CB1543;
+}
+
+.principle-toolkit .priceLeader p {
+    margin-bottom: 0px;
+}
+
+.principle-toolkit .text {
+    color: white;
+    font-family: 'ProximaNova-Sbold';
+}
+
+.principle-toolkit .btn-primary {
+    border-radius: 0!important;
+    border-color: #4b82a8!important;
+}
+
+.principle-toolkit .buttonCon a {
+    display: block;
+    background-color: #4b82a8;
+    transition: all 0.15s ease-in;
+    -webkit-transition: all 0.15s ease-in;
+    cursor: pointer;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    padding: 6px 0;
+    margin: 0px 3px 17px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 600;
+}
+
+.principle-toolkit .buttonCon a:hover {
+    background-color: #4ba0c8 !important;
+    border-color: #4ba0c8 !important;
+    text-decoration: none;
+}
+
+.principle-toolkit .buttonCon {
+    margin-top: 20px;
+}
+
+.principle-toolkit .padding-right {
+    padding-right: 127px;
+}
+
+.principle-toolkit .kit-list {
+    float: left;
+    width: 45%;
+    margin-left: 5%;
+}
+
+.principle-toolkit .img-btn-con {
+    float: left;
+    width: 50%;
+}
+
+.principle-toolkit .preorderCon {
+    clear: both;
+}
+
+.principle-toolkit .rule {
+    height: 1px;
+    border: none;
+    background: #ccc;
+    margin-top: -1px;
+}
+
+.principle-toolkit-side-bar {
+    width: 30%;
+    margin-left: 3%;
+    margin-top: 42px;
+    margin-bottom: 60px;
+    float: left;
+    background: #efede2;
+}
+
+.principle-toolkit-side-bar .quickLinksBox {
+    padding: 15px 24px;
+}
+
+.principle-toolkit-side-bar .quickLinksBox h3 {
+    margin-bottom: 15px;
+    margin-top: 8px;
+    padding-bottom: 5px;
+    line-height: 30px;
+}
+
+.principle-toolkit-side-bar ul.sel-list {
+    list-style-type: none;
+    list-style: square;
+    margin-top: -6px;
+}
+
+.principle-toolkit-side-bar ul.sel-list li {
+    list-style: square;
+    color: #007096;
+    font-size: 24px;
+    line-height: 13px;
+}
+
+.principle-toolkit-side-bar .blk-sm {
+    font-size: 13px;
+    color: #000;
+}
+
+.principle-toolkit-quoteBox .quoteBox {
+    padding: 22px 0 5px;
+    margin-bottom: 15px;
+    width: 936px;
+}
+
+.principle-toolkit-quoteBox .quote {
+    color: #444;
+    font-style: italic;
+    font-size: 16px;
+    margin-left: 36px;
+    line-height: 23px;
+    text-align: left;
+}
+
+.principle-toolkit-quoteBox .quoteName {
+    text-align: right;
+    margin-right: 40px;
+    color: #4d4d4d;
+    font-size: 12px;
+}
+
+.principle-toolkit-quoteBox hr {
+    color: #444444;
+}
